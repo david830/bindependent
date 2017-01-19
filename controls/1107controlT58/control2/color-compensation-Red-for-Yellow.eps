@@ -1,0 +1,5901 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The Mathworks, Inc. Version 7.8.0.347 (R2009a). Operating System: Darwin 10.8.0 Darwin Kernel Version 10.8.0: Tue Jun  7 16:33:36 PDT 2011; root:xnu-1504.15.3~1/RELEASE_I386 i386.
+%%Title: ./color-compensation-Red-for-Yellow.eps
+%%CreationDate: 11/12/2012  11:23:15
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:   101    75   469   361
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:   101    75   469   361
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode 0864 4320 csm
+
+  355   -20  4419  3436 rc
+278 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 5185 3457 rf
+6 w
+0 2817 4018 0 0 -2817 674 3076 4 MP
+PP
+-4018 0 0 2817 4018 0 0 -2817 674 3076 5 MP stroke
+gs 674 259 4019 2818 rc
+/mwscm { [/Indexed /DeviceRGB 255
+  <
+    000083 000087 00008b 00008f 000093 000097 00009b 00009f 0000a3 0000a7 
+    0000ab 0000af 0000b3 0000b7 0000bb 0000bf 0000c3 0000c7 0000cb 0000cf 
+    0000d3 0000d7 0000db 0000df 0000e3 0000e7 0000eb 0000ef 0000f3 0000f7 
+    0000fb 0000ff 0003ff 0007ff 000bff 000fff 0013ff 0017ff 001bff 001fff 
+    0023ff 0027ff 002bff 002fff 0033ff 0037ff 003bff 003fff 0043ff 0047ff 
+    004bff 004fff 0053ff 0057ff 005bff 005fff 0063ff 0067ff 006bff 006fff 
+    0073ff 0077ff 007bff 007fff 0083ff 0087ff 008bff 008fff 0093ff 0097ff 
+    009bff 009fff 00a3ff 00a7ff 00abff 00afff 00b3ff 00b7ff 00bbff 00bfff 
+    00c3ff 00c7ff 00cbff 00cfff 00d3ff 00d7ff 00dbff 00dfff 00e3ff 00e7ff 
+    00ebff 00efff 00f3ff 00f7ff 00fbff 00ffff 03fffb 07fff7 0bfff3 0fffef 
+    13ffeb 17ffe7 1bffe3 1fffdf 23ffdb 27ffd7 2bffd3 2fffcf 33ffcb 37ffc7 
+    3bffc3 3fffbf 43ffbb 47ffb7 4bffb3 4fffaf 53ffab 57ffa7 5bffa3 5fff9f 
+    63ff9b 67ff97 6bff93 6fff8f 73ff8b 77ff87 7bff83 7fff7f 83ff7b 87ff77 
+    8bff73 8fff6f 93ff6b 97ff67 9bff63 9fff5f a3ff5b a7ff57 abff53 afff4f 
+    b3ff4b b7ff47 bbff43 bfff3f c3ff3b c7ff37 cbff33 cfff2f d3ff2b d7ff27 
+    dbff23 dfff1f e3ff1b e7ff17 ebff13 efff0f f3ff0b f7ff07 fbff03 ffff00 
+    fffb00 fff700 fff300 ffef00 ffeb00 ffe700 ffe300 ffdf00 ffdb00 ffd700 
+    ffd300 ffcf00 ffcb00 ffc700 ffc300 ffbf00 ffbb00 ffb700 ffb300 ffaf00 
+    ffab00 ffa700 ffa300 ff9f00 ff9b00 ff9700 ff9300 ff8f00 ff8b00 ff8700 
+    ff8300 ff7f00 ff7b00 ff7700 ff7300 ff6f00 ff6b00 ff6700 ff6300 ff5f00 
+    ff5b00 ff5700 ff5300 ff4f00 ff4b00 ff4700 ff4300 ff3f00 ff3b00 ff3700 
+    ff3300 ff2f00 ff2b00 ff2700 ff2300 ff1f00 ff1b00 ff1700 ff1300 ff0f00 
+    ff0b00 ff0700 ff0300 ff0000 fb0000 f70000 f30000 ef0000 eb0000 e70000 
+    e30000 df0000 db0000 d70000 d30000 cf0000 cb0000 c70000 c30000 bf0000 
+    bb0000 b70000 b30000 af0000 ab0000 a70000 a30000 9f0000 9b0000 970000 
+    930000 8f0000 8b0000 870000 830000 7f0000 
+  >
+] setcolorspace } bdef mwscm
+gs np 674 259 mt 0 2817 rl 4018 0 rl 0 -2817 rl cp c np
+[4018 0 0 2817 674 259] cc
+<< % Image dictionary
+  /ImageType 1
+  /Width 200 /Height 200
+  /BitsPerComponent 8
+  /Decode [0 255]
+  /ImageMatrix [200.000000 0 0 200.000000 0 0]
+  /DataSource currentfile
+  /ASCII85Decode filter
+  /RunLengthDecode filter
+>>
+image
+JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$
+JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$
+JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$
+JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$JH16$R/m0dJH3Ic
+p]5pG_uTH2JH3^jnc=:AaoM;>q?$TrJH3moqZ6Emr;hHLc2dbCr;uiurW<'"JH4$squQcupB1BrrW.QM
+dK'4HrW<'$q#gd%!s/Q'!J(7#!;liu!Wr?'rWN*%!X&W.rW<'"JH47$r;lm!"Tni0"9eu+"pP57"9S`-
+!r`4O!8%;M!WE-*!s8Z/"U,)7qZd<0"U,#2!Wr?%JH4@'r;dB0!WrN-"9er5#6tM?#mpS:#mUY<"9S`-
+!W`=Q!8@MP!WE--!s8Z0"U52:#RLh9$4."E#6k>7"9S],rW.QMh#RBS*!-0D!sA`1"pYA=#mq%J$k*LO
+$4-tC"pG,3!Wr?%JH4R-r;lm!$NgJ6"U,)8#RLhG%/^PA$k!CK#6k>7!s/Q'!J(7/!;up?!WiH+"9\l4
+#7(VC$OdIS%hB3^%h/pT#m^_="9S],rW.QMiW/oXrW3Q3!sAc3#7(VC$OdLU&/"mS$kX$]%1<LK"pG,3
+!Wr?%JH4^1r;dK3!WrN-"9eu7#RLkI%M'*`'E&UR'+kcc$jm7F"U"o/!r`4O!9F4Y!>5G8!s8Z0"pYD?
+$4I@S&J>cm(B,*Z().Dn%L`[M#6b54!Wr?%JH4g4r;e2G!WrN-"9eu7#RUqK%hK?f()If*)B'J1()%8j
+$jm7E"U"o/!r`4O!9aF\!@S!N!s8Z0"pYD?$OdLV&el)u)&jP9*?6"9(DIGl$jm7E"U"o/!W`=Q!9aF]
+!WE-5!sA`1"pYGA$k3^Z',;?&*$$.#+:]G5)Aa)"%h&dN"pG,3!r`4O!9sR^!>PY;!s8Z0"pYD?$OmRW
+',;<%*$-4HrZ_pt+<DI='G1f`#mUY<!s8W(!J(7:!;urt![e'Q"9eu7#mq(N&/#Zn)&s_A,:+Za-RL)_
+*uc%2&Io0T#6k;5!Wr?%b5h;<X8r/!/HPtU!sAc3#7(VD%1a$a()\)5+XAB_.P!#!-mg/\)]'/!%1<FH
+"U"o/!W`>G!:p5r!;lls!\"3S"9eu7#mq(N&/#]p)]g.J-RpZ"0/"q0.OQG_)AWts%13@F"U"o/rW1:E
+mfBfrquQcu.g#kV"U52;#n%1Q&JQ$"*?ZUT.kWM21GgmB0.SCp*Z>e,%h&aL"p>#0!r`5I!:'Zr!;cdO
+!WiH+"9\l4#71_G%M09g(`XVB-S$f)2)dKT3&WTI/12V^)&*Ym$OI%A"9S],!<LRJjoN0rqZ6Zt(BXaB
+"U52;#n%1Q&JQ$"*[2p\/i#=F4T7MW4?58Q.jcDZ(D@>h$4$h>"9S`)!Rh&+!Q>'9!WE-R!s8Z0"U52<
+$4ICU',DH*+=&Bf1,_0W5sn%.69dOi0Ie@j)AWqq$jd.C"9S],rW1LKgB#Luq#UHr1BR^^"9eu7#RLkJ
+%hTKl)]g4O/29%D5=7n38kMWC5W^hV.3flO'G(]]#R1G8!s/N)!Rq,<!<E6'k5j07pAt6p1'7U]"9eu7
+#RLhH%M09h)''kH.PEV>5=A%9:Jak`91M901bL.!*#B8!$jd.C"9S],rW1OLoE"Udk5jWDnH&Ri2?O$a
+"9eu6#71_F%1a'c(E4G@-nR575"%t;;H6b!<DlO]5rpbO,p+$?&Io0S#6b54!WiB'eH#7Cn,hbRp]0=T
+quS_X!sA`1"U52;$4@:R&JGot*?ca[0K)$[85<)c>?tN>=]A-d5;t8F+rqI5%h&dN"p>#1!r`5O!;6H[
+!lY3<!r`9\"9\l3"pYD?$OdLV&eu6&+!`6e1cdll9iP8%@Us"Z?s?W*76NL[-6O3A&Io0T#6b54!WiB'
+ec>FFkQ8s/q?$Tt2?X-d"U52;#mq(M%h]Qm)BL(L/29(I6q^E\?Y!hcCMIKk>?"6^3AE!.*>fG#$jm4D
+"9S],rW1XOp&XmhpB10le,f=Gr<#+a"9er5"pYD?$4I@S&JGot*?c^Y0/YgX8PiMrASZ4)F)l/4@TlW"
+5;k,@+;tt,%LWOI"U"o/!W`>T!;6Hh!q6<e!oj=N!rN0""?6Pg"pP;<#mq%L%hTHi(`XVB-nR585=SCJ
+?"IhmGC"U]G&_5)=AD7G1+FLh(D@;f#mUY;!s/Q'!S[VI!Vuln"8W/t"6]ga!U^$d"8r?`"U,)7#6tM@
+$4@:Q&/#]p)]g1N.krtG6q^H_@r$+1IY!*%IX#jG?;sK\2D-<u)ANhn$4$h>"9S`)!S[VJ!Vulo"7lZn
+"53hO"8i9d"U,)7#6tM@#mq%L%M06e(E+;;,q:Q*4$lM8=CGo`H%1O)MM[(<H#I7t:II5u.3]`J&e>?V
+#6b54!WiB'gAppJqZ?WsqZQ]uqulm!j9##WqZQm%4U))q#7(SA$4@7O%M06e()\)7,Uk?%3C$)0<aKEW
+GCP@+OHP`dLk'\c?r]f`2(^*q)&*Vk$4$h>!s8W(!Sd\K!W3#s"8i<!"oJT&"oSS["8N)u"o\]k#6tM?
+#mq"I$k3^Y&el*!*$6CQ/29(I78-ZcASlU>L5hC`R@0A&LjjDX>>IXI0IS(`((h#a#mUV:!s/N)!Sd\K
+!W3#t"8rB#"oJT(#Q+f*"oJMd"8E#s"oSZ)#<iD!#mq"I$k3[W&J>cn)&s_B-7^c.4@;_=>%;AkIYNlJ
+S"HCISX5CkH#6qg83Sj\,97R6%h&aL"p>#0!r`5W!;6Hk!rW6""TAT'#5e`)#lP#-#6"ed"T&B##5ncm
+#RC_C$47.L%1Wm[&JGlq)&s_B-7UZ*3^H;5=CGrcI"mZISYN'\W26,PN.>t]=\V4A/g_YX'G(]\#R1G8
+!s8H&hZ3?NquZg!r<3*'rW`?,rWr?,rWrK.rW`<)mf`FiqZd$)r<Pgu#mq"I$OdIS%hK<c'G_N(*$6@N
+.5!D:5=S@J?>+>*KoVLlVQ6o)YH4UmPD=I#?W'?T0e"7b((q)b#mUV:!s/N)!T3tO!W)rt"9&H&"o\],
+#7(56rX&<+!so8>#lY).#42Tj#5nf+#lY/0$:5+.$k3XU%hK<c',;<#)]^"E-7LQ&3'K`';d<mPH%V*C
+TW#'$\%0#UXehJGJ9#1%8j>0a,TR^8%h&aL"p>#0!r`5\!;6Hi!r`<$"TAQ,"pP;;rWiZ6#mq"I$ht,8
+$O[:K#mgkCrWhfpr!30+rX&Q27LKS4$k3XU%hK9a&el&r(`FA8+<r3_/i#@K6V:3Y@Vg4<Mj9p6Z+.K`
+_8*^kXJ(l5G\LAW69$SE*uPb(%13@F"U"o/rW2$ZpAt*lr<!''"TAQ7"pP;;#RC_C$4@4M$k3[F%fR"<
+%LNXS$k*LN$4."E#l+]*#58B$#lP)/$;Cm9$k*RS%Ls!\&.oNg'GVB#)&jS<+s\Nd/i,FK6:k!T?tj\1
+Lm+C.Z+@clb0%fD]sFZ,N.#VP;ari'.3TWG&Io0T#6b54!WiB'irJiTqZ?ZtrWEl<"U5/9#7(SA$47.L
+$k3[V%hK<K&I]3^%hB-Z$k*LN$4.%/#lP)/$N:E-$k*RS%Ls![&.oKe',2/s(Dn&0*?QFL-7LK"1cRWb
+85E8mB5i0MO.)oL]#2\:daQUf`4N4HP(Rjf=%YY5.jH&N'+YKX#6b54!Wr?%jT,&VqZ?]ur<*i="U5/9
+#RC_C$4@7N%1WmZ&.oNf'D`CN',(uj&.]9]%1EUPrX/?*r<iN3!=TD9%8@<B%hB3_&J>]i'GVB"(`=84
+*ZlOM,q(8r0f:sT6V(!Q?"IntJW,qiXgl6kdb*=/g!n6_[ATCJH"pPY68pJB*Z5Y'$jm7E"Tni.rW2*\
+q>pEor<*$%rWO&A"pYD>#mq"I$k3[W%hK<c',2/s()Qib%2Tcp'GD)k&.]6[%1E[E$iCA0$iUQ6%1NdW
+%hB3_&J5Wh',2/r()If*)]Tk?+<i'X-n6f&1H.B[6qL0S>\%YnIu0A\WjTXbe(Wa?j5JbAah4dJNdbkQ
+;+3N"-Qj<B&If'Q"pG,3!r`5^!;cfo!rN0""TAQA"pP;<#RLhG$OdIS%hK<c',;9!(`=51)uCTc)]BS2
+(DRVt&ePZc%LrpWq@*<3=UkoP%hK9a&J>`j'GV>u(Dn#.)]Tk>+<_sU-7CAr0JYOH4[DM/:f^h3CNOuZ
+OIN,P]Z8FRiTKLkki:CD_R-,&K6(O&83J^X+rh@2%LWRJ"U"o/!W`>_!;urq!rW6""9AZ0rWX2E#RC_D
+$OdIR%M'-a',22u(`=84*?H:Fq]QIm+!)C@)&O,('G:ui&.]<J%fQu?&.fEc&ebom'bqK#(`=52*$$(B
++<_sT-7C>p/hf(=3'9Dm85)o_?"@_lI"dTJUTM&DcI_"<mI9Z6l/C48\uD*RG@t&O5;au;*>fG#$jd.C
+"9S],rW2'[rW2s!qucp$rWO>I"pYA=#RLhG$k3[W&.oNg'c%W()]Tn@+X/-W-78[=%jiSJ,9\-M*#]Y1
+().Dp')`CB&H*2C&eYik'GM8t(Dmu,)B0Y:*ZlOL,:"T`.4Zu'0f(^J4?l/%8l&Ag?Y+%pH\79CTW5E7
+b1,80mIKrDo^:krcG-QSN-f>F:I6um-6F*>&.JsP"pG)2!r`5\!!**$rW<!"rWN3(2$O6i#7(SA$4@7O
+%M'*_',2/t(`FA8+<_sU-7C>o/1iG+/hJY+.OZYi+s7pH)AsA-'bhAZ'E/\H'c%Q$(`=52*$$(B+<_pS
+,pk#h.kE;,1,V!N4?l/$8PN&_>@;&[F*iOtPb"_W]>i4Nip-(-q>0jVlep71[%`\5DdZI33\Vp()ANhn
+$4$h>"9S`)!TF(Z!WE0""8rB%"X4-T#6tM@#mq%K%1Wm[&ebrp(E"/3*[)aS-RgPt0/,.;2#T9C1bpd=
+/Li.p,9\*K)]BP1(]+tP(Ddo*)&aG6*?H:F+X86Y-R^Gp/M8_41c@<T4[;A(8PDr[=C#BLDKL5WMNXI)
+Y.2?me_]KWp%eO`qXs:;f>tJ"Q%X3g<Cf5-.3]]H&e59U#6b54!WiB'i;iiY!<WH'"TAT("sO9W#RLeE
+$OdIS%hK<d'G_N')]^"D,:4fh/MAk92E3`Z4T.DT4?>G[1GCC2-m^)]*uu=?)B/Pl=W/1t)]Tk>+!;^N
+,UFfd.P!)'0JYIC3''/c5sn+59MeYh>@;#WDfpG[MNXF&X0fU]dG!XHnb;t\rquQ\k1\"jWgSZeB37ek
+1b0dk(D@;f#mUY;!s/Q'!T="^!WiH+"9e]--O'b[#7(SA#mq%K%1Wm[&JGio(`=85+!DmV.4d)+1cIEW
+5!_P(7K,ag779I-4ZYMY0J+b&,pOQU+!1;"<urD)+<_pR,pjug.P*2+1,CdH3BKAh6:==99i+bi>@(fP
+CiOZIK8PeZTrG<._p$Zfk3hm;rVuorq=<b)cG-NPMgB,B9gLZh,p!m;&.AmO"pG)2!r`5Y!<*'%"9\o-
+"t'W\#RC_C$4@7O%M'*_&el&s)&jS<+s\Ka/2&b93BTMm77TsD:/Cjc&l24p8OYs03]AiK/Li+o,U+BT
+r?,/b+sJ6W-7:2k.kNA-1,LmK3]oVm6UjU>9i+bi>$bZMC2S*;IY<T@R%L:[\%g#3g#;2bpA4dgs8Dca
+l.s_&Yb-r(D-g%+3%lU#)&*Vk$4$h>"9S`)!T*l1!s8Z/"U5/9#7(SA#mq%J$k3[X&J>`l(Dn)3+!DmV
+.4[&,2*!fb6q9mF;,gRurE9h:=&i-n8k)*03AiQF/1N%p,piL8=X>CB-n-Vs/MAh61c@<T4[28$7S-6J
+;,gV#?"%8WCiOTDItW]@Q_(%T[(O?$eD0-Nnb2kZs8W#ln`eoX_QonuJ8emo7QN7P+WD..%LWOI"U"o/
+!W`>Y!&+KX"9eu7#7(SA#mq%J$k3[W&/#Wj()Rr0*[)aT-n?o)2)m]`6qL*L<*3@2@:NjIAJ/K]?<^K/
+9h7Z:4#\uN/hAM%.K(Yq.4Qi!/h\q71c@<S4?l,"7S-9K;,gS!?!q/TCN"9<H[pg-OHuE3Wj0(LaNrJp
+jm2I1qYgElqtBOCh9j-HUQ^:M@oZ&_1+FIf((q)b#mUV:!s/Q'!T!fG"9\l4#6tM@#mq"I$k3[W&.oNh
+'c.`,*?QIN-Rp]%1H.B[6V'mJ<a&g=ASGsuDfBZ6DJNor?WpH*8ju!-3AiTI0.njU/2Sq1/h\q71c@<R
+4?c"s77^'G:fCCt>[LrOBl%a1G^P'sMNF*mTVnp!]>Me=f\bfVnb)_Wq]>P)mcN<O_mH8)KQLd,8j>-_
+,TR[7%h&aL"p>#0!r`5V!(I(p"pP;<#mq"I$k3[V%hK?e'G_N')]^%F,q(;t1,V'T5t4IB<E`a>BP_X/
+G'SC\H[9pZEG]Au>ZOZo7R94!2`3BH1&`k,0etOA2)dNW4[25"7S-6J;,gV#?!q/TC2Is5H$t6uMN=!i
+StrBj[_9W&db*I=lL4?<q"a^Xna#5hcbd&cQA0Qq=\M+>/L;GU'G(]\#R1G8!s8H&g]0eI"pP;<#mq%J
+$k3[W&.oNg'c%W)*$-4I-7LK"1H.B[6UsgJ=']9KD/j`FIY!-*L4t;4IsQ6VBk(FL;+jAF5<Lqb2DtIj
+=#Dlp3'',a5=.b-8PDlV<*3@2@:X%eDK0fEI=[*/Nfoa!Tr+os\A#o)dF[47kj7g1p%@tImH<EZc,$`_
+QA9^!>>@LE0.%bZ'bLl^#R1G8!s/N)!S[T-"U52;#mq%K$k3[W&.oNg'c.`+*$-7J-7LN#1cRT_6qL-P
+=^P`UE-?SYKSYPGrf7\OMhcq5GAq8+>ZOZo7mfO)4$!3u0KD3W5!VG&7S-6J;,gV#?=@AWCMn-6G^P$p
+Ll@F\R@^1PXg5IN_o^6TgYh2Xm-jrC+mnOTgsjK]ZDEkCH#$\^6om"M+WD1/%LWRJ"U"o/!W`>U!(I.t
+#RLhG$k3XU%hK?e'GVE%)]^"D,:4ik0JkaO5Xe7><*<R?CiXcLK8>MKPa7](Q^*bqMM-D$DeNQ_<)6.W
+6U3gu4T7E@4?Ykn6:=:692/5]<`r[7@qKImE-$5LIY!30Nfo]sT;8EfZF@K`a3;u`gu.8Vl0I[#kiCXS
+d)Wf'UR$^^CgL"/4#/6/*#B4u$jd.C"9S],rW1^Q70Wu&#mq(M%Ls!\&ebro(Dn)3+!DjU.4d/03'9Gp
+8PW2e?Y+%pH%:U,OHc-%StDXHS=,Y'M1U(qCh6pT;GKhR6U=!95#OU15sn(28PDlV<**7/?t<ncDK0fD
+H[^R$MN3jcR\$:PXK]+D^Vn4<db!71iT'%]jPo(NeBGh@Y+h2;H>R%g7m/XY,97U7%h&dM"p>#1!r`5R
+!(I2!#mq%L%M'']&JGin(Dn&1*[)aS-n?r+2EO,k852ua?=[hkG^kI,Od;K.U84W^UnOBJP`:EHG&M#%
+>#eBm84Gs562j,H5sdt/84lQO;,gV#?!q2UCMn-7G^FmkKo(eOQ'n2:V5^W'[_';maNW#\f\>6=hVHu?
+eBc1M[B#p`LO*fF<(T82/0l8R'G(]\#R1G8!s8H&fDnAG#RLhH%1`s\&J>cm()Ro.*ZuXQ-Rp]&2*!fd
+7ncc\>[hAbG(#%%Od;K0USb#jWMlYfSX5FoJU)6L@U)u4:.e#F6ppr?;aWrB84lQN;,gV#?!q/SC2Is4
+GC"[fKSPJHP*VQ.U8FrnZF7?Y_T'aCd*pOrf@JI"cH3r8ZDa=VL3[WE<D#J6/LDPW'bLl_#R1G8!s/N)
+!S7=$#7(YE$k<dZ&J>`l()Ii,*?QFM-7LK!1H.B\77p<S=^P`VF*`CnO-Q0+Uo15oXfSP$Un='<MLp.p
+CLg^Q;bp%X7R]^46UX@47nH?K:fCCt>[LrOBP_U-G'SIbJq]#>O->p!St`*^Xg,:D]YDA(aihrScd'eY
+a25Nu)Qom)O+_ap@9-#e2_QO$)\s"q$OI%A"9S],rW1UNIg?>f$OmRW&J>`k'c.]*)]^%F,pt/o0f1jQ
+6:X^H<a9'HDg$P^MisEtU8FrlY-5"0WMQ5TP)=j;Ebf2l=B&'i8Ol6=6psI57n?6G:Jk(m>$YNGAnc+$
+F*;hVItEB1N/s0gR[p.JW2m,-[CEi__8F73a2Z*9^q@.\W>VCrNIl@j@9-&g3%ua(*#B4u$jd.C"9S],
+rW1RM70j2,$k3^Y&J>`k()Ii,*$-7J-7CAs1,V'U6V'pL=C#EOEHltfNK]d&Uo:>sYHY12WMQ5TP)=j;
+Eb],k=B&*j8k;GM74Lbt8P;cR;H-_$?!q/SC2Ip2G'SIbJq]#=NfoZpS"?@NW2m)+['mNW]`#Pd]XbGT
+X/);NMh-%f@96,i3ADs-*>fG#$jm7E"U"o/rW1OLIg?>f$k3^Y&J>`l()Ro.*$6=L-7LK!1,_0X6qL-P
+=^GWSEd<1jNg-!)Uo:>sYHP+0W2#rOOGSO6EG8og=Ar!h8k;E@77B[984cHK:Jt.n>$YNGAnc+$F*;hV
+IY!0-MN*^]QC+/5TqnTdXKJh6['d?N[C!6CWhl>TOW'%*F_bDe9gh&u.jQ/R'G(]\#R1G8!s/N)!Rq*<
+#RLhH%1a$`&ebuq(`=85+!DmV.4d,.2EF&j8PW5f?Y+"nH%:[1Pa\5>VlHl%Y,nY#Tq%C.LOXMdBOP.H
+;GKkV7n3GG.7Qj"92/2Z<*!.,?XdS[CN"69GC"[eJq\u;NKB<gR$sS=U84ZbWiN6#XWX^FW2-&SP`:BF
+FD>5c:..3#/0uAV'bLo`#mUV:!s/Q'!Rq*<#RLhH%1a$`&el&r(`=85+!DmV.4d,-2EF&j8PW2e?=[hk
+G^kI,PF.o8V5UDqX/`(mSsbb"KR@lYAm\_A;,'YR7Rd;E9gqNA84lQN:fC@r>@(`KB52:&EclVQI=Hj%
+LP^tMOcu&tR[ftBTqeEZV50o]TUhL8O,/@5EbSo_:.7<'/LDSZ((q,d#mUY;!s8W(!Rh$;#RLhH%1a$`
+&ebuq(`=84+!DmV.4d,-2EF#h852ua?"7VgGC>.%OHuB.U8=cdW2?>^R[&nhJ9Z'K@pN/6:.n,I77@)A
+-:C9m84lQN;,^Lu>[CiLB52:%EclSOH[^KsKnkMCNKB<eQ'[l,r0ndsR$EhpM1g;#DeEEX:.7<'/ghe^
+(D@;f$4$h>"9S`)!R^s:#RLhH%1a!^&ebuq(`=53*[)aT-n?o)2*!ie7ncc\>[_;`FF/RpNKTWtT:r$U
+US49JQB6uVHus4;?Wg?)9M%]A6ULc<-UL0g77Kg?9M\Mb<`r[6@:X"bCi466Fa&+XI=Qp&L51VDN/is\
+Oo:FeOcPK[LP(&$Ebo;m<DH"I2D6I&*>fJ%%13@G"U"o/!W`>L!(7)!$4I@S&.oNg'G_K&)B9e@,:+`f
+/MK"@4@)G0:K:S*AScC3IY<T>PF%`.StDUER?`klKmn5bBjt=J;,'VO6UF':5:/W\5sn%084lQN;,^Lt
+>@(]IAS>gpDK'W<G'J=\IXcp$KS>2;M#E/QLkg\:J:2ZaDJ3K`<)#eF2_Z[**Z5\)%LWRJ"U"o/!r`5J
+!(7)!$4@:R&.oNg'GVE$)&jS=+s\Nb/2&e;4$Q,)9i>%u@VBY$H@U^,NfoZoR$j>-PE1TTIsH'MA6rA9
+9h@fA5sIR24XE9V5XIh,7nH?K:f::p>$PEC@qB:eCMe!0F*)SMH$apeIXclurdc2BIsl]iG&qP9A7&J;
+9LV-(0e+Fj)AWqr$jd.C"U"o/rW1@G6jO)+$OmRW&J5Wh'c%W()B9hB,:4fh/ho4D5!hb4:fU\+ASZ:/
+I"@!.NKB9dPEM#eM1gA(F)>Ms=]A-g7RKF)4?NL&,s+4O5!M;!6q0^>9i"Vc<`iR3?X[GTAnYmoD/XB6
+F*)PJGBeB3Gp@QXG'%bDD/!Qh>?4Qm6p<Oa.jZ;W(D@;g$4$h>"9S],!<LLH6jO)+$OdLU&.oNg'G_K%
+)B9e@+seTd/MJt?4?u>,9i>%t@V9OuGC4poLl..NNJraMK7A/gDJ3H_<DZ=X6U3dr3][*t+ZVSF4?btq
+6UaL:9MSD^<**4,>[CfH@q91bBkqO%DJsLnE?fLDEH#i6ChdTn?sHf4:.R`82_cj1+WM=5&.K!R#6b54
+!Wr?%cN%_c#RLkI%M'*_&JGin()Ro.*?QFL-7CAs1,_0W6UsdF<*<O;Bl8!9H[gX$L51P=KRnPsFDkl'
+>usls7mfL(3]K&V2Dm?M2E*TU3]fJg5XIk.84lTP;,^Iq=B\p7?=72OA7]CeBkhD\CERA+BP(da?X-`6
+:eXAG4?##H-R'QK'bLoa#mUY<"9S`)!R:[5#7(VC$k3^X&.oNg'c%T&)B9e@+seTd/MK"@4?u;*9i4qq
+?tF%iF*;kXIt<3'JUVrjFDkl(?<C-#845^*3]ArR2#T3R1c.'J2`Wo]4[25"77TpB9i"Va<)m"%>$G6<
+?XR;O@q>LK+_5(l@:*;E=B/6o8ju!-2_ls5,9@a=&e>BX#R1G8!s/Q'!R:[4#7(VC$OmRV&.fHf'GVB#
+)&jS<+X8<^.k`Y93^,l"8kr8c>[V,XDK0fCH@($eH[0dTDJ<Wg>#\9i76s't2`3BHr%T<L1,CaE2E*WX
+4?c"s6q0^=92//X;,^Fo<`iL.>?kH?qd1IP?!LT:=&`'n91M?64#SfF-mTlR(D@>h$OI%B"9S`-rW17D
+6O*l'$4@7P%M'*_&ebro(Dn&1*ZuXP-Rp]%1cRT^6UsdF;cm:4ASGt!EccGIG'.kFD/!Nf>#eBl7R90u
+2`*9E0`*LG0JP:;1c70N3]fJh5sn%084cHJ9hnM^;H$Op<``C+=oMSM=]nj.<`N'q:/"5J69[Fg0eFh"
++<244&Io3V#R1G8!s/N)!R(O2"pYD?$OdIS%M'*_&ebrp(E"/4+!DjT-n?o*2*!ca6UsdF;cm:4@qKFk
+DJsK5Df'6%@p`D>:eXAG4utVZ0eY.2r@B'C/M8Y/0JP=>2)dKU4?Ynp6:=7484cEH9MJ8X:f1+hqc"\:
+;c6Ff9hS&I6U3ao2)-[3,p=9H'bV#d$4$k?"9S],rW14C63[Z##mq%K%1WjY&.oNg'c%W))]^"D,:4ij
+0/GLH4[;A)92AJe>$bTHAnPdkBkV*h@9m#9:eXAG4utVY0eP%.q^N^=.kE8(/hf"81c73O3]oPi5X@b*
+77Kd<8P2WK9MJ8WrD+P2:/+DT8Ol3:5s@@h1b^L1,p=9I()%5h$OI%B"U"o/rW11B/-Z:`#RLkI$k3XU
+%hK<c',;<#)B0\=+XABa/MJt=3BTMn7nQNR<ENI2?X`nB&n#$M=&Vmf7m]C#2D[$=.k2trr?i^9-n-Sp
+.kE8)0/54<2)[ES4$5Yi5X@\&6UX@47Rp!?r(/#%84Q-<6UF%%4#o2T0.\Lt+W_O<'G1f`$4$h>"9S],
+rW11B63RPu#RLhG$OdFQ%M'*_&el&s(`F>6+!MsX.P3>12E<la6:OO?:Jt1o=^#$7>[(B5<DcL`7RB:"
+2D[!<.OZYkqB[+.-RU;k.P!&%0/,+:1c73O3BB5a4[)%o5X@\&r^6ZQ+@AL_5s[_!4?GM\1bgU5-m^#X
+)]0;&%h/mQ#6k;5!s8H&aoFd4"pP;<#mq%J$k*RT%hK<c'GVE$)B9e@+seWe/MJt<3'0>k77^'G:Jk%j
+<E<.#<)QLc8OYp.3]8`H/1N%p,U4Q4+s8*T,U=Z^-7:2j.P!)'0/54<1c70M3&s#\4$5Vg4[)(.59N-R
+4Zkee3B/oR1+t4/-R9iV)]0;'&.T'S#R1G8!s/Q'!QkC/"9eu7#7(VC$4@7N%1Wm[&JGin(Dn&1*Zu[R
+-n?l'1,V$Q5!_S+8P;`P:Janc:ej\V7moX+3ArWG/1Dqm,9e</+T<N%+sJ6W,UFcb.4Qi!/M8_31,CaE
+2)[?O3&pmtq`5cY3&iiT2)?s?/Lr7s,9\*I(`!bs%L`[M#6b54!s8H&aT+X1"U,)8#RLeE$4@7N%1Wm[
+&JGin(Dn&1*[)aT-n?l'1,V$Q4[;>&7S$-E92&#P8k;E=5Wh%b1+t1--R9lZ+<UM&rZ<(%+<_mP,:"Q^
+-R^Dn.kE8*0/,+91,C^C1c7/f2BOe61c.!D0eY+0.OZSf+<DI>().>k%1<II"pG,3!Wr?%aT*jp"9eu6
+#7(SA#mq%K$k3[W&/#Wj'c.`,*?QFM-7LGs0JYLE3]oVm6:=73rC7Gg6pX%"3AiQF/1Dnk+s7sK*W-oV
+*>]b<+!2UK+sJ6W,pjuf.4Qi!/M8\00JNJ\q(`sF0eb75/Lr;!-6scX*ZGt5'G:re$jm7F"U"o0!r`5A
+!%S0T"U,)8#7(SA#mq%K$k3[W&J>`k()Ii-*?QIN-7LGs0JYLE3BKAg5XPB9&OAZF4#f)Q0.\P",U+?P
+*?6$r)ZCZl*#ot>*ZlLI+X/-V,pjuf.4Qet/1`A)r\"%#*\K&s/1`;#-mp;c+s.gE)&F##&.T*V#mUY<
+"9S],rW1(?.g#nW"U5/9#7(SA#mq%J$k3[W&J>`k()Ii-*ZuXP-7CAr0/>@B3'',a55[VX4Zkba1bp^8
+.4-;`*uu=?)AsFl)#bBi)B'P6*#ot?*ZlLJ+X/-V,pjuf-n-Sp.fCmq/06;l.Olkq-RL,b+sA$K)]9G,
+'+k`a$OI(D"U"o0!r`5@!%S-R"9er5"pYA=#RLhF$O[@P%M'-a',23!)B9e@+s\K`.P3;.1Gq'M3BI("
+&32^.1GLL5.4-;`*uu:=)&W2d!>l[Q)&!o,)]Th<*ZcCG+X/-U,UFca-R\mAqC*I6-mpAh,pX]Z+WqgG
+)]9G,'+k`b$jm:G"pG,3!Wr?%`rIUl!sA`1"U5/9#7(SA#mq%K$k3[W&/#Wj()Rr0*ZuXP-7C>p/h\q8
+1c72i2\J#+1bpa:.ju_h+Wh^D)&O/*(AnpH()%K#(`4,.)B'P7*$$(B+!;^N+s[(4r[%Cf*@3!W,U4KV
++WhaG*#]Y1'b_/j%L`^O#R1G8!s8W(!QG-=!s/T."o\]M#6tM?#mgqH$k*RT%hK<d'G_N(*$$+E,:+]d
+.P*2*0JP?]1Cu;r0J4n+-RBu\*ZQ+:(D[b]'`JjH()%K#(`=20)B0Y9*?H:E+<VgN+sQe,*?l[N+WqjK
+*ZZ4>)&O,('+kcc%1<LK#6k>7!s/Q'!QG*B!WrN-"TAT("s=-U#RC_D$O[@P%M'*_',23!)&jS<+<i'X
+-RgMr/M8[S0+ffg/1N%p,U+?P*#]Y1'bh>qq\&lArY-"\'c%Q$(Dmu,)B'P6*$$%@*ZlL%+T<P`+<DUH
+*ZZ7@)]BS2(D[\u&J,E]$OR1F"pG,3!s/N)!Q>$B!WiH+"9eZ,2[0Hk#7(SA$47.L%1Wm[&JGio(E"/3
+*ZlOM,UOle.4Qhu/1`;%.OZYj,9\-L)]BP/'bh;o')E4>')iOU'GM8s()@]&(`4,.)B0V8*<$uR*ZQ1@
+*#on9)AsA.()7Mr&J,E]$jm:H#6k>7!s/Q'!Q>$>!Wr?'!<`Q("Z6Jg#6tM?#mq"I$k3[W&.oQi()Ii,
+*$$+D+sS?[-RU;j.4HYn-RL)_+Wh^D)&O,('GD)kq%3K:rXo_T',2,q'c%Q$(Dmu,)&aFm)u(Bm)]K\6
+)&O2,()7Ms&ePZb%1EUN#R:P;"9S`-!r`5>!<*$#!sAK)rWOAJ"pYA=#RLhF$OdIS%hK?e'G_K&)B0\<
++<_pR,UFc8-4hIK,9e6P*?,k5()7Mr&J5TM&,d(=&HNLWrY#SP'GV>u()Ic()#bEI)B0P3(`4&*()7Mt
+'+tlf%LigS$4-tC"pG,3!Wr?%_uT`;!<WH&"TAQF"pP;;#RC_D$4@7O%M'*`',22u(`F>5*ZlLJ+sQn/
+%jE/=*ZQ+:(`!i"&ePZc&,?_6&,m.>&HNLWrY#GL'GV>u(B,-K)#Y?N(`F2,()7Pu'GD)k&.]6[$k!CK
+#R:P;"9S`-!r`5=!!!'!!r`<#"TAQE"pP;;#RLeE$4@7O%M'-a',2/t(`=53*?H:F+T*Ao+<VaH*#fb4
+()7Jq&J,H_%f-Y4%fR"<&H37B&eb0W!u)Fa(&f!D(E4,*'bqDs',(uj&J,H_%1EUO#m^b?"U,#2!Wr?%
+_Z0Z;r;up"rWN3()[6KO#RC_C$4@4M%1a!^&ebro()Ro-)]Tk>*rI)l*Zc=A)AsA-'b_2l&.]6\%1W4D
+r!iT7rXT#@&H3:@&ciXZrY5;Gr"f5G)&*bu&eYcg&.]9]%1EUO#m^eA"pG,3!s/Q'!Q+m<!<N0$qucp$
+*<cTN"pYA=#RLeE$OdIS%hK<c',2/s(Dn#.)]Tjp*=a&.)AsA-'bh8m&.]6[%JL;/%K6k:&,m.>&HNLW
+rY+r=)A<bs&eP]e%hB-Z%1EUO#mgkB"pG/5!s8T+rW0n:rW3!"qucp$*!HKM"pYA=#RLeE$OdIS%hK<c
+&ebuq(Dmu,)B/Mm%iQ?((`*r&'+tlg%h9$W%/1/-%/p_8%fR"<&H3:?')<4?&f;2m&.f?_%LrpV$k!CK
+#m^b?"pG,4!s/Q'!Q"j9!W<)u"9&H&"W7LK#6tM?#mgqH$k3[W%hK<c',2/s(Ddo*r#$%_(`*r&'GD)k
+&.]6[$k*LOq$R$-r=&W6rXSo<rXeu>!>6%B&K),k%hB-[%1N^S$O[:J#m^b@"pG,4!s8T+rW0k9r;liu
+r<*$%!<iZ+"qq4H#RC_D$4@7O%Ls!\&J>]i'G^T_q\K\W'bqDr&ePZc%LigS$iLG2$2Y)-$iLM5%K6k:
+&+pM5%i,Wb%1N^S$O[:K#mgkB#6k>8"9S`-!rW/:!;llr!rW6#"9AZ0rWX&A#7(SA$47.L%1NdX%hK<c
+',)&oq@sJS'GD)k&.f?^%1EUP$4?J5q[390r=&Z7rXSW4rXSo:!=TD9$P*RO#m^eA#6kA9"9\f/!Wr?%
+_#XB6quZg!rWE6*"o\]=#6tM?#mq"I$k*RT%M'*^&J>`T'*/d]rY#YP&ePZc%LijU$OR7?$2Fl'$2b//
+$iUS5%J^M3%06kGrX8]4$jd4G#R:S="pG/5!sAN(rW0e7quQ]sr<*$%rWW9*%L34E#RLhF$O[@P%1WmZ
+rXel;$P3gZ%LijU$OR4I$2t5+#PeZ'$2k50$hOl,$iUM4$2t2:#6tG;"U,#3!sAN(rW0_5qZ6Trr<*$%
+r<3]9"pYA=#RLeE$4@4M$k3[F%f6bC%LrpW$k*LN$46\;rWi3&p]p^&r<`?.rX8Q0r<`H/rWiE,rWNB,
+"9Sc*!rW/5!;Z`o!rW6""TAQ*"pY&3"UGA?#mq%=$hau8$O[:K#mgkC#7(23pBC<rqZm$)pBga'r!33*
+rWW6'!<WH'!rW/2!;Z`o!rN0!"TAQ*"pY&3rWiN2$2"Z)#m1G=#7(54r<;s!p'(<tmg&apr<<-&r<*$#
+r;jD.q#U?oqucp$r<<0)rWiB-q?d*+!=&l/#6"ek"Si5k#5\T%"T/B#!rW/-!;QZl!rW6""T8N&#4r0"
+#6"f)"RQ<d"RcNj"T/B"!rN))!;HTk!rW6!"T8Ms#5n`("Sr5t!q?BX"Si/s!rN)'!;?Nj!rN/u"S2fp
+"T/Ag!qcZj"SMrn!rE##!;6Hi!rE)h"T/A^!pg$`!r2l-!.Y
+~>
+gr
+gs 786 1023 3530 1939 rc
+4 W
+0.8 sg
+799 2809 PD
+4 W
+4232 1518 PD
+4 W
+3059 2948 PD
+4 W
+2667 1773 PD
+4 W
+2094 2948 PD
+4 W
+1237 1817 PD
+4 W
+2079 2867 PD
+4 W
+3116 2948 PD
+4 W
+2064 1710 PD
+4 W
+4200 1574 PD
+4 W
+4209 1560 PD
+4 W
+2369 2948 PD
+4 W
+2131 2948 PD
+4 W
+799 2277 PD
+4 W
+4242 1533 PD
+4 W
+2174 2948 PD
+4 W
+1024 2764 PD
+4 W
+2718 1889 PD
+4 W
+799 2305 PD
+4 W
+1024 2809 PD
+4 W
+3331 1425 PD
+4 W
+799 2250 PD
+4 W
+3336 2669 PD
+4 W
+3262 2809 PD
+4 W
+2469 2948 PD
+4 W
+2288 1932 PD
+4 W
+3089 2867 PD
+4 W
+2563 2066 PD
+4 W
+3175 2948 PD
+4 W
+4295 1415 PD
+4 W
+1721 2012 PD
+4 W
+4176 1588 PD
+4 W
+3090 2867 PD
+4 W
+799 2093 PD
+4 W
+2006 2081 PD
+4 W
+933 2764 PD
+4 W
+2637 1722 PD
+4 W
+1851 2948 PD
+4 W
+2075 2016 PD
+4 W
+799 2250 PD
+4 W
+2196 2948 PD
+4 W
+2368 2024 PD
+4 W
+799 2809 PD
+4 W
+4232 1553 PD
+4 W
+799 2624 PD
+4 W
+1237 2948 PD
+4 W
+1954 1924 PD
+4 W
+1272 2948 PD
+4 W
+1304 1855 PD
+4 W
+2138 1818 PD
+4 W
+4246 1537 PD
+4 W
+799 2809 PD
+4 W
+1444 1911 PD
+4 W
+3166 2867 PD
+4 W
+2513 2948 PD
+4 W
+2117 2867 PD
+4 W
+3291 2948 PD
+4 W
+4227 1559 PD
+4 W
+3215 2867 PD
+4 W
+799 2809 PD
+4 W
+3240 2867 PD
+4 W
+2073 2948 PD
+4 W
+2958 2948 PD
+4 W
+3426 2727 PD
+4 W
+4279 1466 PD
+4 W
+1728 2023 PD
+4 W
+1728 1955 PD
+4 W
+1966 2948 PD
+4 W
+2515 2948 PD
+4 W
+1495 2037 PD
+4 W
+1404 1804 PD
+4 W
+4217 1548 PD
+4 W
+1881 2948 PD
+4 W
+3214 2867 PD
+4 W
+2139 2113 PD
+4 W
+1150 2162 PD
+4 W
+2470 2948 PD
+4 W
+4221 1539 PD
+4 W
+3114 2867 PD
+4 W
+2270 2948 PD
+4 W
+2654 2030 PD
+4 W
+2345 2948 PD
+4 W
+1094 2809 PD
+4 W
+1237 2948 PD
+4 W
+4195 1598 PD
+4 W
+1237 2051 PD
+4 W
+4205 1562 PD
+4 W
+1864 2027 PD
+4 W
+1272 2948 PD
+4 W
+799 2764 PD
+4 W
+1024 2809 PD
+4 W
+2233 2948 PD
+4 W
+2490 2948 PD
+4 W
+2139 2948 PD
+4 W
+799 2669 PD
+4 W
+933 2764 PD
+4 W
+1916 1966 PD
+4 W
+1966 2948 PD
+4 W
+1150 2948 PD
+4 W
+2389 1999 PD
+4 W
+1094 2948 PD
+4 W
+3172 2948 PD
+4 W
+2131 2948 PD
+4 W
+1706 2010 PD
+4 W
+2073 2080 PD
+4 W
+2084 1920 PD
+4 W
+799 2669 PD
+4 W
+3058 2948 PD
+4 W
+1094 2867 PD
+4 W
+2315 2948 PD
+4 W
+1024 2809 PD
+4 W
+1197 2127 PD
+4 W
+1947 2948 PD
+4 W
+1860 2948 PD
+4 W
+799 2948 PD
+4 W
+2955 2948 PD
+4 W
+1197 1846 PD
+4 W
+799 2764 PD
+4 W
+799 2044 PD
+4 W
+799 2305 PD
+4 W
+1873 2049 PD
+4 W
+4209 1580 PD
+4 W
+933 2948 PD
+4 W
+3314 2764 PD
+4 W
+1304 2948 PD
+4 W
+3138 2948 PD
+4 W
+2615 1703 PD
+4 W
+2161 2948 PD
+4 W
+2903 2948 PD
+4 W
+4302 1420 PD
+4 W
+1237 2948 PD
+4 W
+799 2867 PD
+4 W
+1576 1947 PD
+4 W
+799 2669 PD
+4 W
+2925 2948 PD
+4 W
+799 2727 PD
+4 W
+2617 2047 PD
+4 W
+2866 2948 PD
+4 W
+1150 2948 PD
+4 W
+1024 2948 PD
+4 W
+1609 1916 PD
+4 W
+3191 2809 PD
+4 W
+1856 2948 PD
+4 W
+1832 1813 PD
+4 W
+3309 2948 PD
+4 W
+1024 2764 PD
+4 W
+4192 1600 PD
+4 W
+3242 2948 PD
+4 W
+2607 2028 PD
+4 W
+1272 2948 PD
+4 W
+2170 2948 PD
+4 W
+2258 1954 PD
+4 W
+3208 2948 PD
+4 W
+799 2696 PD
+4 W
+2979 2948 PD
+4 W
+2082 2059 PD
+4 W
+3264 2867 PD
+4 W
+933 2696 PD
+4 W
+1150 2948 PD
+4 W
+2327 2948 PD
+4 W
+1094 2809 PD
+4 W
+3278 2809 PD
+4 W
+4187 1583 PD
+4 W
+1609 1932 PD
+4 W
+799 2764 PD
+4 W
+799 2809 PD
+4 W
+2211 1883 PD
+4 W
+1094 2867 PD
+4 W
+4256 1504 PD
+4 W
+4270 1494 PD
+4 W
+2504 2948 PD
+4 W
+1913 2948 PD
+4 W
+933 2231 PD
+4 W
+2387 2948 PD
+4 W
+2472 2948 PD
+4 W
+2724 1944 PD
+4 W
+2149 2037 PD
+4 W
+1609 1752 PD
+4 W
+933 2696 PD
+4 W
+799 2624 PD
+4 W
+2535 1832 PD
+4 W
+1304 2948 PD
+4 W
+1598 1965 PD
+4 W
+1094 2948 PD
+4 W
+2431 2040 PD
+4 W
+799 2177 PD
+4 W
+3109 2948 PD
+4 W
+799 2948 PD
+4 W
+1382 1889 PD
+4 W
+2745 1694 PD
+4 W
+799 2247 PD
+4 W
+2133 2948 PD
+4 W
+4268 1479 PD
+4 W
+1024 2948 PD
+4 W
+1972 2948 PD
+4 W
+2082 2867 PD
+4 W
+799 2247 PD
+4 W
+2298 2948 PD
+4 W
+4297 1435 PD
+4 W
+1024 2948 PD
+4 W
+1444 1697 PD
+4 W
+1657 1857 PD
+4 W
+3252 2809 PD
+4 W
+2039 2093 PD
+4 W
+799 2764 PD
+4 W
+799 2142 PD
+4 W
+1987 1779 PD
+4 W
+1150 2948 PD
+4 W
+1683 1742 PD
+4 W
+933 2867 PD
+4 W
+4205 1575 PD
+4 W
+1237 2057 PD
+4 W
+2955 1878 PD
+4 W
+933 2948 PD
+4 W
+2139 2867 PD
+4 W
+2234 1806 PD
+4 W
+1657 1958 PD
+4 W
+3315 2727 PD
+4 W
+933 2764 PD
+4 W
+933 2201 PD
+4 W
+799 2696 PD
+4 W
+933 2948 PD
+4 W
+3136 2867 PD
+4 W
+2483 2948 PD
+4 W
+4243 1502 PD
+4 W
+2256 2948 PD
+4 W
+1748 1912 PD
+4 W
+799 2696 PD
+4 W
+1587 2036 PD
+4 W
+933 2175 PD
+4 W
+799 2256 PD
+4 W
+1150 2948 PD
+4 W
+1024 2867 PD
+4 W
+799 2624 PD
+4 W
+799 2285 PD
+4 W
+1150 2948 PD
+4 W
+2412 1980 PD
+4 W
+1024 2194 PD
+4 W
+1972 2948 PD
+4 W
+799 2948 PD
+4 W
+1094 2068 PD
+4 W
+2220 1802 PD
+4 W
+4205 1565 PD
+4 W
+2910 2948 PD
+4 W
+799 2250 PD
+4 W
+799 2696 PD
+4 W
+1885 2948 PD
+4 W
+2452 2040 PD
+4 W
+799 2727 PD
+4 W
+2113 2000 PD
+4 W
+3065 2948 PD
+4 W
+2738 2029 PD
+4 W
+4196 1577 PD
+4 W
+1742 1873 PD
+4 W
+799 2669 PD
+4 W
+2573 1912 PD
+4 W
+1425 1879 PD
+4 W
+1094 2948 PD
+4 W
+1966 2027 PD
+4 W
+1382 1929 PD
+4 W
+933 2220 PD
+4 W
+2930 2948 PD
+4 W
+2111 2040 PD
+4 W
+1987 2043 PD
+4 W
+3020 2948 PD
+4 W
+2696 2046 PD
+4 W
+799 2293 PD
+4 W
+2017 2948 PD
+4 W
+2898 2948 PD
+4 W
+1150 2948 PD
+4 W
+1564 2022 PD
+4 W
+2903 2948 PD
+4 W
+1885 2948 PD
+4 W
+4189 1596 PD
+4 W
+1869 2948 PD
+4 W
+2136 2064 PD
+4 W
+2362 2062 PD
+4 W
+799 2645 PD
+4 W
+1237 2948 PD
+4 W
+2962 2948 PD
+4 W
+4282 1481 PD
+4 W
+3019 2948 PD
+4 W
+2932 2948 PD
+4 W
+1024 2948 PD
+4 W
+3052 2948 PD
+4 W
+1551 1737 PD
+4 W
+1197 2140 PD
+4 W
+1927 2948 PD
+4 W
+1094 2948 PD
+4 W
+1993 2948 PD
+4 W
+2042 2008 PD
+4 W
+2580 1999 PD
+4 W
+1890 2948 PD
+4 W
+2222 2046 PD
+4 W
+2341 2948 PD
+4 W
+3222 2809 PD
+4 W
+3174 2948 PD
+4 W
+2381 2948 PD
+4 W
+799 2645 PD
+4 W
+4249 1510 PD
+4 W
+1094 2809 PD
+4 W
+2507 2948 PD
+4 W
+1742 1903 PD
+4 W
+2288 2948 PD
+4 W
+2179 2948 PD
+4 W
+2210 1879 PD
+4 W
+2267 2948 PD
+4 W
+2640 1883 PD
+4 W
+1272 2948 PD
+4 W
+1304 2948 PD
+4 W
+1873 2948 PD
+4 W
+2035 2948 PD
+4 W
+1197 2032 PD
+4 W
+2833 1961 PD
+4 W
+2133 1956 PD
+4 W
+799 2309 PD
+4 W
+799 2201 PD
+4 W
+3237 2948 PD
+4 W
+1024 2948 PD
+4 W
+799 2301 PD
+4 W
+799 2669 PD
+4 W
+2267 2948 PD
+4 W
+1272 2948 PD
+4 W
+1237 2948 PD
+4 W
+933 2727 PD
+4 W
+799 2624 PD
+4 W
+1304 1809 PD
+4 W
+2445 1815 PD
+4 W
+2484 2948 PD
+4 W
+1150 2948 PD
+4 W
+1024 2867 PD
+4 W
+2433 2948 PD
+4 W
+2960 2948 PD
+4 W
+1237 2948 PD
+4 W
+1272 2099 PD
+4 W
+3201 2809 PD
+4 W
+1462 1997 PD
+4 W
+2601 1773 PD
+4 W
+1479 1930 PD
+4 W
+3013 2948 PD
+4 W
+1094 2867 PD
+4 W
+1024 2179 PD
+4 W
+1333 2059 PD
+4 W
+1272 2948 PD
+4 W
+1706 2002 PD
+4 W
+2542 1903 PD
+4 W
+933 2170 PD
+4 W
+3238 2809 PD
+4 W
+1444 1718 PD
+4 W
+2904 2948 PD
+4 W
+1881 1624 PD
+4 W
+3347 2867 PD
+4 W
+2340 1962 PD
+4 W
+1150 2867 PD
+4 W
+1304 2948 PD
+4 W
+3076 2948 PD
+4 W
+3165 2948 PD
+4 W
+1094 2809 PD
+4 W
+1930 2948 PD
+4 W
+2646 1947 PD
+4 W
+933 2228 PD
+4 W
+3109 2867 PD
+4 W
+799 2727 PD
+4 W
+2963 2948 PD
+4 W
+1648 1704 PD
+4 W
+933 2948 PD
+4 W
+1237 2948 PD
+4 W
+4203 1588 PD
+4 W
+1444 1892 PD
+4 W
+933 2727 PD
+4 W
+1657 2000 PD
+4 W
+933 2727 PD
+4 W
+2598 2049 PD
+4 W
+1272 2948 PD
+4 W
+1094 2809 PD
+4 W
+1785 2003 PD
+4 W
+3505 2587 PD
+4 W
+2324 2948 PD
+4 W
+1860 2047 PD
+4 W
+1024 2867 PD
+4 W
+1094 2809 PD
+4 W
+3273 2727 PD
+4 W
+2126 2948 PD
+4 W
+2004 2867 PD
+4 W
+4226 1545 PD
+4 W
+2929 1917 PD
+4 W
+1094 2948 PD
+4 W
+1272 2122 PD
+4 W
+3183 2867 PD
+4 W
+1978 2948 PD
+4 W
+933 2175 PD
+4 W
+3147 2867 PD
+4 W
+799 2314 PD
+4 W
+3248 2867 PD
+4 W
+1237 2948 PD
+4 W
+1304 2948 PD
+4 W
+1197 2948 PD
+4 W
+799 2243 PD
+4 W
+1304 1833 PD
+4 W
+2897 2948 PD
+4 W
+2625 2046 PD
+4 W
+2432 2948 PD
+4 W
+1648 1883 PD
+4 W
+1150 2948 PD
+4 W
+3330 2809 PD
+4 W
+2196 1989 PD
+4 W
+2445 2948 PD
+4 W
+2727 2034 PD
+4 W
+2451 2948 PD
+4 W
+4265 1517 PD
+4 W
+3088 2867 PD
+4 W
+1639 1742 PD
+4 W
+799 2696 PD
+4 W
+4193 1581 PD
+4 W
+3106 2948 PD
+4 W
+1909 2948 PD
+4 W
+933 2948 PD
+4 W
+1425 1637 PD
+4 W
+1304 2948 PD
+4 W
+2373 2948 PD
+4 W
+2478 1706 PD
+4 W
+3110 2867 PD
+4 W
+1094 2089 PD
+4 W
+2105 2867 PD
+4 W
+2885 1941 PD
+4 W
+1742 1931 PD
+4 W
+799 2277 PD
+4 W
+1761 1659 PD
+4 W
+2273 2948 PD
+4 W
+1846 2948 PD
+4 W
+2902 2948 PD
+4 W
+1479 1843 PD
+4 W
+2527 2016 PD
+4 W
+1358 2009 PD
+4 W
+1024 2867 PD
+4 W
+1024 2764 PD
+4 W
+2053 2948 PD
+4 W
+1860 2036 PD
+4 W
+799 2727 PD
+4 W
+1197 2948 PD
+4 W
+2373 2060 PD
+4 W
+1024 2867 PD
+4 W
+933 2809 PD
+4 W
+2082 2003 PD
+4 W
+2518 2948 PD
+4 W
+1619 1961 PD
+4 W
+1150 2948 PD
+4 W
+1510 2029 PD
+4 W
+799 2314 PD
+4 W
+1382 1977 PD
+4 W
+799 2156 PD
+4 W
+1024 2182 PD
+4 W
+933 2696 PD
+4 W
+3284 2764 PD
+4 W
+2407 2948 PD
+4 W
+3183 2948 PD
+4 W
+2118 2068 PD
+4 W
+3131 2867 PD
+4 W
+3103 1954 PD
+4 W
+4302 1437 PD
+4 W
+4240 1528 PD
+4 W
+2963 2948 PD
+4 W
+1674 2013 PD
+4 W
+1197 2948 PD
+4 W
+1304 2948 PD
+4 W
+1333 2099 PD
+4 W
+1969 1795 PD
+4 W
+799 2727 PD
+4 W
+1024 2948 PD
+4 W
+2495 1794 PD
+4 W
+1728 1802 PD
+4 W
+799 2867 PD
+4 W
+1598 1901 PD
+4 W
+2319 2948 PD
+4 W
+799 2281 PD
+4 W
+3108 1959 PD
+4 W
+2198 2948 PD
+4 W
+4180 1592 PD
+4 W
+2334 1895 PD
+4 W
+2810 1985 PD
+4 W
+933 2240 PD
+4 W
+3170 2867 PD
+4 W
+3165 2948 PD
+4 W
+2318 2061 PD
+4 W
+1963 2948 PD
+4 W
+1890 2948 PD
+4 W
+799 2209 PD
+4 W
+1691 2017 PD
+4 W
+3178 2867 PD
+4 W
+1024 2021 PD
+4 W
+3203 2948 PD
+4 W
+2133 2016 PD
+4 W
+799 2809 PD
+4 W
+2203 2948 PD
+4 W
+933 2764 PD
+4 W
+933 2727 PD
+4 W
+2192 2080 PD
+4 W
+799 2314 PD
+4 W
+3257 2867 PD
+4 W
+1304 1972 PD
+4 W
+4278 1477 PD
+4 W
+4200 1577 PD
+4 W
+2051 2867 PD
+4 W
+2079 2867 PD
+4 W
+3012 2948 PD
+4 W
+3043 1975 PD
+4 W
+1024 2948 PD
+4 W
+3200 2867 PD
+4 W
+933 2809 PD
+4 W
+1272 2948 PD
+4 W
+2154 2948 PD
+4 W
+933 2867 PD
+4 W
+1941 2073 PD
+4 W
+1024 1916 PD
+4 W
+1150 2173 PD
+4 W
+1538 1846 PD
+4 W
+3308 1904 PD
+4 W
+799 2669 PD
+4 W
+2006 2948 PD
+4 W
+933 1869 PD
+4 W
+4240 1537 PD
+4 W
+1094 2809 PD
+4 W
+2428 1755 PD
+4 W
+1150 2948 PD
+4 W
+1920 2948 PD
+4 W
+2004 2948 PD
+4 W
+2148 2102 PD
+4 W
+1237 2948 PD
+4 W
+2260 2073 PD
+4 W
+4202 1562 PD
+4 W
+1706 2002 PD
+4 W
+1981 2867 PD
+4 W
+1024 2173 PD
+4 W
+1807 1974 PD
+4 W
+2215 1924 PD
+4 W
+4223 1561 PD
+4 W
+2422 2035 PD
+4 W
+2071 2001 PD
+4 W
+1024 2867 PD
+4 W
+2931 2948 PD
+4 W
+2188 2024 PD
+4 W
+933 2146 PD
+4 W
+1024 2764 PD
+4 W
+3162 2948 PD
+4 W
+933 2727 PD
+4 W
+2958 2948 PD
+4 W
+2094 2867 PD
+4 W
+1150 2031 PD
+4 W
+1094 2867 PD
+4 W
+933 2045 PD
+4 W
+3220 2948 PD
+4 W
+1094 2809 PD
+4 W
+2294 2948 PD
+4 W
+1629 1905 PD
+4 W
+3103 2948 PD
+4 W
+2837 2012 PD
+4 W
+2162 2948 PD
+4 W
+3055 2948 PD
+4 W
+2148 2948 PD
+4 W
+2843 1786 PD
+4 W
+1425 1716 PD
+4 W
+3158 2867 PD
+4 W
+2918 2948 PD
+4 W
+1742 1650 PD
+4 W
+2904 2948 PD
+4 W
+933 2948 PD
+4 W
+2451 2948 PD
+4 W
+3151 2867 PD
+4 W
+1024 2867 PD
+4 W
+2839 1823 PD
+4 W
+1551 1970 PD
+4 W
+1304 1922 PD
+4 W
+2009 2948 PD
+4 W
+4196 1572 PD
+4 W
+1024 2764 PD
+4 W
+2345 1632 PD
+4 W
+1024 2009 PD
+4 W
+933 2256 PD
+4 W
+2098 2867 PD
+4 W
+2347 2948 PD
+4 W
+1937 2006 PD
+4 W
+2177 2948 PD
+4 W
+4228 1549 PD
+4 W
+3316 2696 PD
+4 W
+2168 2051 PD
+4 W
+1524 1692 PD
+4 W
+4287 1449 PD
+4 W
+1842 1950 PD
+4 W
+1909 2948 PD
+4 W
+799 2624 PD
+4 W
+3199 2867 PD
+4 W
+1969 2023 PD
+4 W
+933 2809 PD
+4 W
+2555 1712 PD
+4 W
+1094 2099 PD
+4 W
+2866 2948 PD
+4 W
+3291 2867 PD
+4 W
+4237 1522 PD
+4 W
+2761 2013 PD
+4 W
+1094 2948 PD
+4 W
+1981 2948 PD
+4 W
+1551 1939 PD
+4 W
+1197 2948 PD
+4 W
+3014 2948 PD
+4 W
+1893 2055 PD
+4 W
+1444 1975 PD
+4 W
+1237 2129 PD
+4 W
+1524 1987 PD
+4 W
+4260 1506 PD
+4 W
+3255 2809 PD
+4 W
+3391 2669 PD
+4 W
+1404 1886 PD
+4 W
+1237 2948 PD
+4 W
+1358 2076 PD
+4 W
+3223 2867 PD
+4 W
+2215 2948 PD
+4 W
+2064 2037 PD
+4 W
+2431 2948 PD
+4 W
+2139 2867 PD
+4 W
+1024 2809 PD
+4 W
+1905 2948 PD
+4 W
+2484 2948 PD
+4 W
+2470 2948 PD
+4 W
+933 2696 PD
+4 W
+1404 2066 PD
+4 W
+1495 2008 PD
+4 W
+2082 2867 PD
+4 W
+933 2144 PD
+4 W
+1495 1802 PD
+4 W
+1358 2005 PD
+4 W
+2521 2948 PD
+4 W
+1094 2867 PD
+4 W
+1272 2120 PD
+4 W
+4234 1537 PD
+4 W
+1796 1683 PD
+4 W
+3146 2948 PD
+4 W
+2111 2948 PD
+4 W
+2656 1987 PD
+4 W
+1524 1873 PD
+4 W
+2225 2024 PD
+4 W
+933 2809 PD
+4 W
+3230 2948 PD
+4 W
+1510 1849 PD
+4 W
+1024 1924 PD
+4 W
+933 2764 PD
+4 W
+3350 2645 PD
+4 W
+3273 2809 PD
+4 W
+4210 1553 PD
+4 W
+1941 2948 PD
+4 W
+3142 2948 PD
+4 W
+933 2867 PD
+4 W
+2377 2948 PD
+4 W
+2258 2948 PD
+4 W
+2252 1848 PD
+4 W
+4173 1595 PD
+4 W
+1304 2948 PD
+4 W
+3289 2809 PD
+4 W
+2212 2948 PD
+4 W
+3313 2727 PD
+4 W
+933 2809 PD
+4 W
+799 2314 PD
+4 W
+2216 2948 PD
+4 W
+2113 2948 PD
+4 W
+3184 2809 PD
+4 W
+933 2044 PD
+4 W
+2667 1986 PD
+4 W
+1382 1817 PD
+4 W
+2012 2002 PD
+4 W
+3169 2948 PD
+4 W
+2004 2948 PD
+4 W
+2415 2948 PD
+4 W
+3289 2948 PD
+4 W
+1094 2809 PD
+4 W
+1404 1893 PD
+4 W
+2943 2948 PD
+4 W
+3093 2948 PD
+4 W
+3019 1927 PD
+4 W
+799 2948 PD
+4 W
+4236 1555 PD
+4 W
+2537 1885 PD
+4 W
+2014 2948 PD
+4 W
+2933 2948 PD
+4 W
+1404 1989 PD
+4 W
+799 2645 PD
+4 W
+933 2867 PD
+4 W
+2276 2948 PD
+4 W
+1024 2196 PD
+4 W
+1609 1962 PD
+4 W
+4217 1552 PD
+4 W
+1629 1849 PD
+4 W
+3253 2867 PD
+4 W
+3126 2948 PD
+4 W
+799 2727 PD
+4 W
+4248 1516 PD
+4 W
+2211 2948 PD
+4 W
+1272 2948 PD
+4 W
+1790 1995 PD
+4 W
+1150 2099 PD
+4 W
+799 2669 PD
+4 W
+933 2727 PD
+4 W
+2111 2867 PD
+4 W
+4207 1602 PD
+4 W
+1333 1904 PD
+4 W
+1856 2948 PD
+4 W
+1901 2948 PD
+4 W
+1846 1842 PD
+4 W
+3335 2696 PD
+4 W
+2373 2948 PD
+4 W
+1699 1922 PD
+4 W
+3131 2867 PD
+4 W
+2027 2948 PD
+4 W
+4266 1484 PD
+4 W
+2232 2948 PD
+4 W
+3018 1662 PD
+4 W
+1024 2764 PD
+4 W
+799 2220 PD
+4 W
+2983 2948 PD
+4 W
+1094 2084 PD
+4 W
+799 2809 PD
+4 W
+2012 2867 PD
+4 W
+2311 2948 PD
+4 W
+3095 2867 PD
+4 W
+2994 2948 PD
+4 W
+799 2867 PD
+4 W
+1024 2948 PD
+4 W
+2001 2948 PD
+4 W
+933 2217 PD
+4 W
+3157 2948 PD
+4 W
+3090 2948 PD
+4 W
+2316 1970 PD
+4 W
+1510 1819 PD
+4 W
+933 2809 PD
+4 W
+2418 2948 PD
+4 W
+2353 2948 PD
+4 W
+2126 2867 PD
+4 W
+1333 1777 PD
+4 W
+1150 2948 PD
+4 W
+933 2948 PD
+4 W
+2069 2948 PD
+4 W
+1462 1940 PD
+4 W
+2873 2948 PD
+4 W
+799 2696 PD
+4 W
+1934 2068 PD
+4 W
+2452 2948 PD
+4 W
+2188 1933 PD
+4 W
+1272 2948 PD
+4 W
+2416 2064 PD
+4 W
+1576 1996 PD
+4 W
+3075 2948 PD
+4 W
+1024 2764 PD
+4 W
+3245 1912 PD
+4 W
+4195 1567 PD
+4 W
+1479 1812 PD
+4 W
+933 2217 PD
+4 W
+1272 2948 PD
+4 W
+2354 2948 PD
+4 W
+2039 2867 PD
+4 W
+1358 1657 PD
+4 W
+4196 1576 PD
+4 W
+1237 2948 PD
+4 W
+2932 2948 PD
+4 W
+933 2234 PD
+4 W
+2603 2015 PD
+4 W
+799 2669 PD
+4 W
+2238 2032 PD
+4 W
+799 2764 PD
+4 W
+4200 1565 PD
+4 W
+1382 1776 PD
+4 W
+2379 2948 PD
+4 W
+2307 2948 PD
+4 W
+799 2696 PD
+4 W
+2876 1985 PD
+4 W
+1024 2867 PD
+4 W
+2946 2948 PD
+4 W
+1425 2044 PD
+4 W
+2025 2948 PD
+4 W
+2277 2948 PD
+4 W
+1272 1963 PD
+4 W
+1272 1953 PD
+4 W
+3100 1923 PD
+4 W
+1024 2948 PD
+4 W
+2883 2948 PD
+4 W
+1609 1982 PD
+4 W
+2170 2097 PD
+4 W
+4205 1548 PD
+4 W
+2996 1990 PD
+4 W
+2122 2867 PD
+4 W
+933 2809 PD
+4 W
+1094 2138 PD
+4 W
+3210 2809 PD
+4 W
+2180 1887 PD
+4 W
+3053 2948 PD
+4 W
+1024 2164 PD
+4 W
+1150 2102 PD
+4 W
+3265 2948 PD
+4 W
+2146 2000 PD
+4 W
+1304 2948 PD
+4 W
+799 2179 PD
+4 W
+1150 2948 PD
+4 W
+799 2293 PD
+4 W
+1197 2948 PD
+4 W
+2060 1929 PD
+4 W
+2004 2948 PD
+4 W
+3260 2948 PD
+4 W
+2463 2006 PD
+4 W
+799 1988 PD
+4 W
+1846 2948 PD
+4 W
+2442 2948 PD
+4 W
+1024 2948 PD
+4 W
+4213 1548 PD
+4 W
+2930 2948 PD
+4 W
+2381 1997 PD
+4 W
+3201 2809 PD
+4 W
+3186 1245 PD
+4 W
+2416 2948 PD
+4 W
+1927 1893 PD
+4 W
+4205 1562 PD
+4 W
+1639 1702 PD
+4 W
+1897 2948 PD
+4 W
+1272 2948 PD
+4 W
+4189 1590 PD
+4 W
+1837 2046 PD
+4 W
+1024 2948 PD
+4 W
+1094 2867 PD
+4 W
+799 2253 PD
+4 W
+1024 2196 PD
+4 W
+1272 2948 PD
+4 W
+2360 2077 PD
+4 W
+1629 1928 PD
+4 W
+2286 2948 PD
+4 W
+3229 2867 PD
+4 W
+799 2225 PD
+4 W
+2060 2867 PD
+4 W
+2009 2948 PD
+4 W
+1094 2809 PD
+4 W
+933 2696 PD
+4 W
+1094 2867 PD
+4 W
+4287 1480 PD
+4 W
+2384 2948 PD
+4 W
+3204 2948 PD
+4 W
+4184 1583 PD
+4 W
+2267 2948 PD
+4 W
+2060 2948 PD
+4 W
+1538 1733 PD
+4 W
+1024 2764 PD
+4 W
+1742 1937 PD
+4 W
+2136 2867 PD
+4 W
+933 2727 PD
+4 W
+2480 2948 PD
+4 W
+2139 1713 PD
+4 W
+4249 1523 PD
+4 W
+1975 2948 PD
+4 W
+3109 2867 PD
+4 W
+1150 2867 PD
+4 W
+799 2645 PD
+4 W
+933 2727 PD
+4 W
+1382 1885 PD
+4 W
+3159 2948 PD
+4 W
+2277 2948 PD
+4 W
+4197 1569 PD
+4 W
+2242 2948 PD
+4 W
+799 2277 PD
+4 W
+2247 2948 PD
+4 W
+1094 2948 PD
+4 W
+2236 1987 PD
+4 W
+933 2696 PD
+4 W
+799 2186 PD
+4 W
+2118 2022 PD
+4 W
+2218 2948 PD
+4 W
+1237 2948 PD
+4 W
+3165 2948 PD
+4 W
+3301 2764 PD
+4 W
+1024 2096 PD
+4 W
+2199 2948 PD
+4 W
+799 2260 PD
+4 W
+933 1872 PD
+4 W
+3330 2669 PD
+4 W
+4263 1493 PD
+4 W
+799 2243 PD
+4 W
+933 2231 PD
+4 W
+2382 2948 PD
+4 W
+2183 2115 PD
+4 W
+4215 1553 PD
+4 W
+2439 2948 PD
+4 W
+799 2624 PD
+4 W
+1024 2948 PD
+4 W
+1272 2948 PD
+4 W
+1666 1961 PD
+4 W
+1881 2948 PD
+4 W
+799 2809 PD
+4 W
+1024 2175 PD
+4 W
+1304 1848 PD
+4 W
+2185 2117 PD
+4 W
+3247 1878 PD
+4 W
+2357 2948 PD
+4 W
+1425 2042 PD
+4 W
+1304 2948 PD
+4 W
+799 2669 PD
+4 W
+2714 2002 PD
+4 W
+4294 1431 PD
+4 W
+1304 2117 PD
+4 W
+2139 2948 PD
+4 W
+2012 2867 PD
+4 W
+4205 1577 PD
+4 W
+933 2764 PD
+4 W
+1846 2948 PD
+4 W
+3274 2809 PD
+4 W
+4209 1571 PD
+4 W
+1024 2184 PD
+4 W
+3084 2948 PD
+4 W
+2496 2948 PD
+4 W
+1150 2867 PD
+4 W
+799 2281 PD
+4 W
+933 2253 PD
+4 W
+1996 2867 PD
+4 W
+2397 2948 PD
+4 W
+933 2727 PD
+4 W
+1197 2948 PD
+4 W
+2285 2030 PD
+4 W
+2369 2948 PD
+4 W
+1851 1770 PD
+4 W
+1877 2948 PD
+4 W
+2482 2948 PD
+4 W
+4239 1546 PD
+4 W
+1860 2948 PD
+4 W
+1923 2948 PD
+4 W
+3092 2948 PD
+4 W
+2006 2031 PD
+4 W
+933 2727 PD
+4 W
+3166 2948 PD
+4 W
+799 2669 PD
+4 W
+2274 2045 PD
+4 W
+4192 1583 PD
+4 W
+2084 2062 PD
+4 W
+2113 2867 PD
+4 W
+1304 1957 PD
+4 W
+4285 1443 PD
+4 W
+2617 1855 PD
+4 W
+933 2727 PD
+4 W
+3260 2809 PD
+4 W
+1479 1670 PD
+4 W
+1735 2021 PD
+4 W
+1598 1828 PD
+4 W
+2244 1904 PD
+4 W
+2798 2023 PD
+4 W
+2950 2948 PD
+4 W
+4176 1576 PD
+4 W
+3163 2948 PD
+4 W
+2025 1785 PD
+4 W
+4230 1570 PD
+4 W
+3148 2948 PD
+4 W
+799 2809 PD
+4 W
+3218 2948 PD
+4 W
+3107 2867 PD
+4 W
+4237 1536 PD
+4 W
+4223 1548 PD
+4 W
+4213 1529 PD
+4 W
+2289 2948 PD
+4 W
+2086 2948 PD
+4 W
+2971 2948 PD
+4 W
+4234 1524 PD
+4 W
+799 2624 PD
+4 W
+1923 2948 PD
+4 W
+799 2727 PD
+4 W
+1304 2948 PD
+4 W
+933 2727 PD
+4 W
+799 2696 PD
+4 W
+1960 1913 PD
+4 W
+799 2314 PD
+4 W
+4229 1535 PD
+4 W
+933 2867 PD
+4 W
+2462 2948 PD
+4 W
+2251 2031 PD
+4 W
+1024 2867 PD
+4 W
+1150 2948 PD
+4 W
+1024 2764 PD
+4 W
+3196 2948 PD
+4 W
+1510 1782 PD
+4 W
+2141 2050 PD
+4 W
+2136 2948 PD
+4 W
+2298 2080 PD
+4 W
+3089 2867 PD
+4 W
+933 2243 PD
+4 W
+3222 2809 PD
+4 W
+799 2624 PD
+4 W
+2399 2948 PD
+4 W
+3169 2809 PD
+4 W
+799 2809 PD
+4 W
+2681 2034 PD
+4 W
+2124 2867 PD
+4 W
+2183 2948 PD
+4 W
+2584 1839 PD
+4 W
+933 2809 PD
+4 W
+799 2764 PD
+4 W
+2069 2000 PD
+4 W
+1304 2948 PD
+4 W
+1237 2948 PD
+4 W
+3002 2948 PD
+4 W
+3180 2948 PD
+4 W
+3154 2867 PD
+4 W
+2878 2948 PD
+4 W
+933 2867 PD
+4 W
+1024 2809 PD
+4 W
+2126 2948 PD
+4 W
+3268 2727 PD
+4 W
+2139 2948 PD
+4 W
+2288 2948 PD
+4 W
+2978 2948 PD
+4 W
+4170 1596 PD
+4 W
+1197 2948 PD
+4 W
+3113 2948 PD
+4 W
+2056 1996 PD
+4 W
+799 2948 PD
+4 W
+933 2948 PD
+4 W
+3039 2948 PD
+4 W
+2111 1793 PD
+4 W
+3347 2645 PD
+4 W
+799 2645 PD
+4 W
+2069 1987 PD
+4 W
+3359 2645 PD
+4 W
+1444 2050 PD
+4 W
+3157 2867 PD
+4 W
+1304 2059 PD
+4 W
+1984 2046 PD
+4 W
+1237 2077 PD
+4 W
+799 2297 PD
+4 W
+1024 2764 PD
+4 W
+1639 2035 PD
+4 W
+2475 2948 PD
+4 W
+799 2301 PD
+4 W
+1024 2867 PD
+4 W
+2192 2948 PD
+4 W
+2377 2948 PD
+4 W
+2311 2084 PD
+4 W
+2949 2948 PD
+4 W
+2146 2948 PD
+4 W
+2982 2948 PD
+4 W
+2271 1956 PD
+4 W
+1619 1803 PD
+4 W
+933 2696 PD
+4 W
+2898 2014 PD
+4 W
+3058 2948 PD
+4 W
+1024 2764 PD
+4 W
+799 2624 PD
+4 W
+3161 1945 PD
+4 W
+799 2140 PD
+4 W
+1024 2125 PD
+4 W
+799 2727 PD
+4 W
+1304 2060 PD
+4 W
+1827 1828 PD
+4 W
+2273 2948 PD
+4 W
+2987 2948 PD
+4 W
+3000 2948 PD
+4 W
+933 2809 PD
+4 W
+799 2764 PD
+4 W
+1869 2948 PD
+4 W
+2468 2948 PD
+4 W
+1094 2867 PD
+4 W
+2215 2029 PD
+4 W
+2322 1896 PD
+4 W
+799 2297 PD
+4 W
+2252 2948 PD
+4 W
+1996 1692 PD
+4 W
+2987 2948 PD
+4 W
+1832 1991 PD
+4 W
+1683 1776 PD
+4 W
+1551 1725 PD
+4 W
+2842 1402 PD
+4 W
+933 2209 PD
+4 W
+2025 2867 PD
+4 W
+2520 2948 PD
+4 W
+1462 1856 PD
+4 W
+1846 2948 PD
+4 W
+2162 2948 PD
+4 W
+4177 1583 PD
+4 W
+2508 2948 PD
+4 W
+1837 2029 PD
+4 W
+2455 2061 PD
+4 W
+1524 2040 PD
+4 W
+1920 2045 PD
+4 W
+1873 2948 PD
+4 W
+2210 2015 PD
+4 W
+4253 1510 PD
+4 W
+1639 1773 PD
+4 W
+2207 2073 PD
+4 W
+4232 1531 PD
+4 W
+799 2263 PD
+4 W
+3301 2867 PD
+4 W
+2933 1903 PD
+4 W
+2017 2948 PD
+4 W
+4209 1569 PD
+4 W
+1094 1866 PD
+4 W
+1304 2948 PD
+4 W
+799 2809 PD
+4 W
+3206 2948 PD
+4 W
+1755 2000 PD
+4 W
+799 2948 PD
+4 W
+4285 1456 PD
+4 W
+1382 2022 PD
+4 W
+1479 1946 PD
+4 W
+2136 2948 PD
+4 W
+2503 2948 PD
+4 W
+1901 1825 PD
+4 W
+1024 2809 PD
+4 W
+933 2727 PD
+4 W
+799 2267 PD
+4 W
+933 2253 PD
+4 W
+2914 2948 PD
+4 W
+2617 1981 PD
+4 W
+1479 2049 PD
+4 W
+1024 2144 PD
+4 W
+2510 2948 PD
+4 W
+2743 1730 PD
+4 W
+1197 2948 PD
+4 W
+2027 2867 PD
+4 W
+2879 2948 PD
+4 W
+2301 2030 PD
+4 W
+799 2301 PD
+4 W
+799 2182 PD
+4 W
+1998 2081 PD
+4 W
+799 2696 PD
+4 W
+1842 2948 PD
+4 W
+1524 2035 PD
+4 W
+2985 2948 PD
+4 W
+1864 2948 PD
+4 W
+4231 1551 PD
+4 W
+799 2809 PD
+4 W
+3293 2867 PD
+4 W
+4212 1555 PD
+4 W
+4239 1525 PD
+4 W
+2098 2867 PD
+4 W
+799 2305 PD
+4 W
+799 2263 PD
+4 W
+3035 2948 PD
+4 W
+933 2223 PD
+4 W
+2046 2948 PD
+4 W
+799 2645 PD
+4 W
+2430 2948 PD
+4 W
+2020 2948 PD
+4 W
+799 2104 PD
+4 W
+3171 2867 PD
+4 W
+2565 1753 PD
+4 W
+933 1993 PD
+4 W
+799 2867 PD
+4 W
+1024 1950 PD
+4 W
+799 2314 PD
+4 W
+3377 2948 PD
+4 W
+1150 2867 PD
+4 W
+799 2281 PD
+4 W
+2395 2948 PD
+4 W
+933 2764 PD
+4 W
+799 2281 PD
+4 W
+1094 2051 PD
+4 W
+1728 1898 PD
+4 W
+933 2948 PD
+4 W
+2336 2948 PD
+4 W
+1197 2140 PD
+4 W
+1901 2948 PD
+4 W
+1237 2948 PD
+4 W
+933 2948 PD
+4 W
+4259 1519 PD
+4 W
+2332 2051 PD
+4 W
+1094 2138 PD
+4 W
+3128 2948 PD
+4 W
+1495 2015 PD
+4 W
+4277 1445 PD
+4 W
+1272 2948 PD
+4 W
+933 2867 PD
+4 W
+2094 2948 PD
+4 W
+933 2867 PD
+4 W
+1197 2948 PD
+4 W
+4224 1551 PD
+4 W
+4233 1537 PD
+4 W
+2956 2948 PD
+4 W
+4192 1589 PD
+4 W
+3175 2948 PD
+4 W
+2603 1928 PD
+4 W
+2499 2948 PD
+4 W
+1495 2060 PD
+4 W
+2189 2056 PD
+4 W
+3520 1619 PD
+4 W
+1024 2764 PD
+4 W
+1598 1968 PD
+4 W
+1796 1811 PD
+4 W
+1333 2107 PD
+4 W
+1094 2948 PD
+4 W
+1767 2027 PD
+4 W
+1197 2948 PD
+4 W
+1024 2214 PD
+4 W
+933 2948 PD
+4 W
+1094 2034 PD
+4 W
+3163 2867 PD
+4 W
+1272 2024 PD
+4 W
+1564 1773 PD
+4 W
+2035 2948 PD
+4 W
+4257 1519 PD
+4 W
+2299 2948 PD
+4 W
+2337 2948 PD
+4 W
+4185 1581 PD
+4 W
+2090 2948 PD
+4 W
+1094 2948 PD
+4 W
+933 2696 PD
+4 W
+2854 1936 PD
+4 W
+1094 2186 PD
+4 W
+799 2305 PD
+4 W
+3014 2948 PD
+4 W
+2127 1974 PD
+4 W
+799 2669 PD
+4 W
+4301 1376 PD
+4 W
+1150 2948 PD
+4 W
+2411 2948 PD
+4 W
+1683 1874 PD
+4 W
+1024 2948 PD
+4 W
+3125 2867 PD
+4 W
+2982 1982 PD
+4 W
+1897 2948 PD
+4 W
+2880 2948 PD
+4 W
+2025 2867 PD
+4 W
+2398 2948 PD
+4 W
+4200 1593 PD
+4 W
+1425 1909 PD
+4 W
+2415 2948 PD
+4 W
+1094 1868 PD
+4 W
+2593 1970 PD
+4 W
+799 2645 PD
+4 W
+2410 2948 PD
+4 W
+2418 2948 PD
+4 W
+1304 2014 PD
+4 W
+1024 2168 PD
+4 W
+3082 2948 PD
+4 W
+933 2948 PD
+4 W
+1837 2030 PD
+4 W
+1024 2809 PD
+4 W
+2084 2027 PD
+4 W
+2403 2948 PD
+4 W
+1683 1924 PD
+4 W
+2035 2867 PD
+4 W
+1024 2189 PD
+4 W
+933 2727 PD
+4 W
+1094 2809 PD
+4 W
+799 2030 PD
+4 W
+1444 2068 PD
+4 W
+1024 2948 PD
+4 W
+2699 1986 PD
+4 W
+1934 2948 PD
+4 W
+1963 1789 PD
+4 W
+1094 2809 PD
+4 W
+1742 1797 PD
+4 W
+933 2948 PD
+4 W
+2445 2948 PD
+4 W
+3093 2867 PD
+4 W
+3202 2809 PD
+4 W
+2101 2948 PD
+4 W
+2208 2948 PD
+4 W
+2493 2948 PD
+4 W
+3280 2727 PD
+4 W
+2168 2948 PD
+4 W
+4229 1540 PD
+4 W
+2483 2017 PD
+4 W
+1150 2948 PD
+4 W
+2165 2948 PD
+4 W
+2688 2037 PD
+4 W
+2452 2007 PD
+4 W
+2706 1804 PD
+4 W
+2999 2948 PD
+4 W
+4227 1550 PD
+4 W
+1024 2109 PD
+4 W
+2708 2016 PD
+4 W
+3234 2948 PD
+4 W
+1674 1966 PD
+4 W
+2670 2014 PD
+4 W
+1877 2047 PD
+4 W
+1237 2015 PD
+4 W
+4202 1547 PD
+4 W
+2071 1706 PD
+4 W
+1150 1979 PD
+4 W
+2200 2115 PD
+4 W
+2981 2948 PD
+4 W
+799 2669 PD
+4 W
+799 2305 PD
+4 W
+1538 1877 PD
+4 W
+2652 2026 PD
+4 W
+1272 1989 PD
+4 W
+2151 2948 PD
+4 W
+1304 2948 PD
+4 W
+1998 2867 PD
+4 W
+3199 2867 PD
+4 W
+799 2764 PD
+4 W
+1304 1793 PD
+4 W
+799 2948 PD
+4 W
+2290 2948 PD
+4 W
+1024 2948 PD
+4 W
+1024 2199 PD
+4 W
+3194 2809 PD
+4 W
+1748 1986 PD
+4 W
+4196 1587 PD
+4 W
+3329 2669 PD
+4 W
+3352 2696 PD
+4 W
+3347 2645 PD
+4 W
+1404 2023 PD
+4 W
+4197 1591 PD
+4 W
+1881 2948 PD
+4 W
+799 2277 PD
+4 W
+1721 2025 PD
+4 W
+2508 2948 PD
+4 W
+933 2104 PD
+4 W
+799 2209 PD
+4 W
+1893 2948 PD
+4 W
+799 2727 PD
+4 W
+933 2948 PD
+4 W
+1237 2948 PD
+4 W
+799 2624 PD
+4 W
+933 2696 PD
+4 W
+2006 2037 PD
+4 W
+3096 2948 PD
+4 W
+1822 2026 PD
+4 W
+1495 2035 PD
+4 W
+1444 2006 PD
+4 W
+2956 2002 PD
+4 W
+3015 2948 PD
+4 W
+2247 1877 PD
+4 W
+2240 2948 PD
+4 W
+2039 2948 PD
+4 W
+4300 1397 PD
+4 W
+2198 1788 PD
+4 W
+2124 2948 PD
+4 W
+4272 1493 PD
+4 W
+799 2809 PD
+4 W
+2289 1984 PD
+4 W
+1094 2948 PD
+4 W
+1846 2057 PD
+4 W
+3248 2867 PD
+4 W
+3405 2624 PD
+4 W
+3011 2948 PD
+4 W
+3001 1690 PD
+4 W
+2454 2948 PD
+4 W
+933 2696 PD
+4 W
+1094 2809 PD
+4 W
+1538 2050 PD
+4 W
+3326 2764 PD
+4 W
+2207 2948 PD
+4 W
+1024 2764 PD
+4 W
+933 2696 PD
+4 W
+1947 2089 PD
+4 W
+1197 2146 PD
+4 W
+1648 1883 PD
+4 W
+2459 2087 PD
+4 W
+2133 2867 PD
+4 W
+1150 2867 PD
+4 W
+1923 1858 PD
+4 W
+2117 1922 PD
+4 W
+4220 1552 PD
+4 W
+4187 1588 PD
+4 W
+2876 2948 PD
+4 W
+2133 1826 PD
+4 W
+1197 2122 PD
+4 W
+1024 2948 PD
+4 W
+1916 2948 PD
+4 W
+1024 2764 PD
+4 W
+1564 1913 PD
+4 W
+1272 2948 PD
+4 W
+799 2696 PD
+4 W
+799 2240 PD
+4 W
+1197 2948 PD
+4 W
+1524 2019 PD
+4 W
+1150 2948 PD
+4 W
+933 2867 PD
+4 W
+799 2293 PD
+4 W
+3256 2764 PD
+4 W
+2422 1987 PD
+4 W
+1856 2948 PD
+4 W
+3087 2948 PD
+4 W
+1333 1961 PD
+4 W
+1094 2867 PD
+4 W
+2259 2948 PD
+4 W
+1495 2008 PD
+4 W
+933 2696 PD
+4 W
+933 2948 PD
+4 W
+1524 1932 PD
+4 W
+933 1890 PD
+4 W
+2212 2068 PD
+4 W
+2126 1943 PD
+4 W
+2740 2010 PD
+4 W
+2417 2948 PD
+4 W
+4293 1438 PD
+4 W
+1975 2948 PD
+4 W
+1657 2043 PD
+4 W
+799 2253 PD
+4 W
+1272 2948 PD
+4 W
+799 2809 PD
+4 W
+1272 2948 PD
+4 W
+1444 1859 PD
+4 W
+4296 1464 PD
+4 W
+799 2764 PD
+4 W
+933 2809 PD
+4 W
+933 2253 PD
+4 W
+799 2624 PD
+4 W
+4202 1561 PD
+4 W
+2847 1913 PD
+4 W
+3204 2809 PD
+4 W
+2295 2050 PD
+4 W
+3016 1906 PD
+4 W
+2842 1854 PD
+4 W
+3159 2948 PD
+4 W
+1094 1875 PD
+4 W
+4214 1568 PD
+4 W
+799 2764 PD
+4 W
+4213 1575 PD
+4 W
+4192 1581 PD
+4 W
+2340 2948 PD
+4 W
+4247 1520 PD
+4 W
+799 2809 PD
+4 W
+1510 1981 PD
+4 W
+799 2314 PD
+4 W
+2255 2948 PD
+4 W
+1920 2045 PD
+4 W
+3194 2809 PD
+4 W
+1094 2948 PD
+4 W
+1721 1776 PD
+4 W
+3305 2809 PD
+4 W
+2049 1870 PD
+4 W
+2138 2948 PD
+4 W
+799 2809 PD
+4 W
+933 2199 PD
+4 W
+1706 2031 PD
+4 W
+1094 2948 PD
+4 W
+1024 2809 PD
+4 W
+2882 2948 PD
+4 W
+2946 2948 PD
+4 W
+3110 1944 PD
+4 W
+1024 2948 PD
+4 W
+1742 1896 PD
+4 W
+4258 1536 PD
+4 W
+2183 2948 PD
+4 W
+799 2867 PD
+4 W
+3385 2948 PD
+4 W
+2107 2948 PD
+4 W
+3174 2948 PD
+4 W
+1425 1972 PD
+4 W
+1024 2212 PD
+4 W
+2413 1991 PD
+4 W
+2768 1983 PD
+4 W
+2359 2002 PD
+4 W
+799 2867 PD
+4 W
+1966 1936 PD
+4 W
+1510 1667 PD
+4 W
+1024 2867 PD
+4 W
+2206 2035 PD
+4 W
+4202 1570 PD
+4 W
+1024 2764 PD
+4 W
+1524 2045 PD
+4 W
+799 2867 PD
+4 W
+2891 2948 PD
+4 W
+933 2727 PD
+4 W
+3168 2809 PD
+4 W
+3133 2948 PD
+4 W
+1969 1813 PD
+4 W
+2071 2081 PD
+4 W
+2431 2948 PD
+4 W
+3098 2867 PD
+4 W
+2520 2032 PD
+4 W
+1510 1859 PD
+4 W
+1197 2133 PD
+4 W
+1462 1833 PD
+4 W
+1598 1951 PD
+4 W
+1864 1998 PD
+4 W
+2335 2068 PD
+4 W
+1832 2035 PD
+4 W
+1551 1818 PD
+4 W
+1998 1957 PD
+4 W
+933 2867 PD
+4 W
+1150 1941 PD
+4 W
+1495 2051 PD
+4 W
+2298 2948 PD
+4 W
+1404 2049 PD
+4 W
+1304 2948 PD
+4 W
+933 2867 PD
+4 W
+1683 2012 PD
+4 W
+2027 2867 PD
+4 W
+2421 2948 PD
+4 W
+1150 2867 PD
+4 W
+799 2764 PD
+4 W
+2706 1876 PD
+4 W
+933 1940 PD
+4 W
+2598 1945 PD
+4 W
+799 2263 PD
+4 W
+1666 1785 PD
+4 W
+799 2727 PD
+4 W
+2902 2948 PD
+4 W
+2945 2948 PD
+4 W
+3120 2867 PD
+4 W
+933 2214 PD
+4 W
+2113 2948 PD
+4 W
+1024 2948 PD
+4 W
+799 2301 PD
+4 W
+799 2237 PD
+4 W
+1721 1938 PD
+4 W
+2912 2948 PD
+4 W
+1272 2122 PD
+4 W
+2572 2072 PD
+4 W
+2134 2044 PD
+4 W
+1272 2948 PD
+4 W
+4223 1544 PD
+4 W
+3243 2867 PD
+4 W
+1969 2948 PD
+4 W
+799 2285 PD
+4 W
+1382 2051 PD
+4 W
+2049 2005 PD
+4 W
+3293 2727 PD
+4 W
+799 2206 PD
+4 W
+4173 1591 PD
+4 W
+2319 1971 PD
+4 W
+2853 2005 PD
+4 W
+1094 2134 PD
+4 W
+799 2217 PD
+4 W
+799 2243 PD
+4 W
+2330 2948 PD
+4 W
+1817 1953 PD
+4 W
+1990 2948 PD
+4 W
+1832 1583 PD
+4 W
+4216 1542 PD
+4 W
+1272 2948 PD
+4 W
+4282 1429 PD
+4 W
+3028 2948 PD
+4 W
+4235 1546 PD
+4 W
+1893 1722 PD
+4 W
+2926 1966 PD
+4 W
+799 2867 PD
+4 W
+2473 2948 PD
+4 W
+1897 2948 PD
+4 W
+1648 1891 PD
+4 W
+1197 2948 PD
+4 W
+2261 2948 PD
+4 W
+2632 2011 PD
+4 W
+2911 2012 PD
+4 W
+1404 2060 PD
+4 W
+2313 2035 PD
+4 W
+1024 1942 PD
+4 W
+4192 1591 PD
+4 W
+1150 2867 PD
+4 W
+1856 2054 PD
+4 W
+2918 2948 PD
+4 W
+1860 2022 PD
+4 W
+2599 2045 PD
+4 W
+3278 2809 PD
+4 W
+2030 1973 PD
+4 W
+1094 2867 PD
+4 W
+1609 1955 PD
+4 W
+799 2948 PD
+4 W
+2438 2948 PD
+4 W
+2154 2099 PD
+4 W
+1674 1921 PD
+4 W
+1237 2948 PD
+4 W
+1984 2948 PD
+4 W
+3259 2764 PD
+4 W
+799 2072 PD
+4 W
+2511 2948 PD
+4 W
+3269 2727 PD
+4 W
+1024 2948 PD
+4 W
+799 2764 PD
+4 W
+3159 2948 PD
+4 W
+3033 2948 PD
+4 W
+799 2247 PD
+4 W
+1237 2089 PD
+4 W
+1150 2158 PD
+4 W
+799 2289 PD
+4 W
+4241 1549 PD
+4 W
+933 2948 PD
+4 W
+3064 1955 PD
+4 W
+2317 2948 PD
+4 W
+4232 1534 PD
+4 W
+2449 2948 PD
+4 W
+1755 1804 PD
+4 W
+1957 2062 PD
+4 W
+1721 1895 PD
+4 W
+3173 2867 PD
+4 W
+3250 2809 PD
+4 W
+799 2696 PD
+4 W
+1864 2948 PD
+4 W
+2330 1986 PD
+4 W
+1024 2948 PD
+4 W
+2006 2948 PD
+4 W
+799 2727 PD
+4 W
+2383 2047 PD
+4 W
+2179 2034 PD
+4 W
+1721 1950 PD
+4 W
+799 2669 PD
+4 W
+933 2764 PD
+4 W
+3090 2867 PD
+4 W
+2455 2948 PD
+4 W
+1272 1897 PD
+4 W
+2012 2948 PD
+4 W
+1150 2138 PD
+4 W
+1755 2011 PD
+4 W
+799 2809 PD
+4 W
+799 2305 PD
+4 W
+2120 2867 PD
+4 W
+1094 2867 PD
+4 W
+2322 1775 PD
+4 W
+3034 1972 PD
+4 W
+1094 2948 PD
+4 W
+3088 2948 PD
+4 W
+2943 1739 PD
+4 W
+2022 1749 PD
+4 W
+2179 2115 PD
+4 W
+1462 1870 PD
+4 W
+1735 2042 PD
+4 W
+2202 2060 PD
+4 W
+799 2764 PD
+4 W
+1150 2867 PD
+4 W
+2609 1877 PD
+4 W
+1024 2867 PD
+4 W
+1150 2138 PD
+4 W
+1094 2809 PD
+4 W
+799 2624 PD
+4 W
+2183 1855 PD
+4 W
+2124 2948 PD
+4 W
+1842 2948 PD
+4 W
+1304 1981 PD
+4 W
+1827 1997 PD
+4 W
+2058 2948 PD
+4 W
+1817 2034 PD
+4 W
+1728 2036 PD
+4 W
+2428 1912 PD
+4 W
+1927 2948 PD
+4 W
+2208 2083 PD
+4 W
+933 2253 PD
+4 W
+1576 1824 PD
+4 W
+933 2039 PD
+4 W
+2479 2050 PD
+4 W
+4216 1541 PD
+4 W
+2789 1960 PD
+4 W
+799 2727 PD
+4 W
+2722 2039 PD
+4 W
+933 2247 PD
+4 W
+2228 2948 PD
+4 W
+933 2948 PD
+4 W
+1024 2029 PD
+4 W
+1975 1881 PD
+4 W
+799 2948 PD
+4 W
+2992 2948 PD
+4 W
+1150 1909 PD
+4 W
+1881 2948 PD
+4 W
+4240 1527 PD
+4 W
+2351 2948 PD
+4 W
+3179 2809 PD
+4 W
+3333 2669 PD
+4 W
+1619 1845 PD
+4 W
+1304 2037 PD
+4 W
+4197 1579 PD
+4 W
+2468 2055 PD
+4 W
+2546 1923 PD
+4 W
+1272 2091 PD
+4 W
+2064 1909 PD
+4 W
+2195 2948 PD
+4 W
+799 2727 PD
+4 W
+2067 2867 PD
+4 W
+1404 2007 PD
+4 W
+2256 2089 PD
+4 W
+4188 1589 PD
+4 W
+1094 2182 PD
+4 W
+799 2727 PD
+4 W
+2251 2948 PD
+4 W
+1333 1891 PD
+4 W
+1197 2948 PD
+4 W
+2648 1907 PD
+4 W
+1150 2948 PD
+4 W
+1094 2089 PD
+4 W
+1272 2948 PD
+4 W
+1150 2867 PD
+4 W
+2956 2948 PD
+4 W
+3178 2948 PD
+4 W
+3070 2948 PD
+4 W
+1024 2764 PD
+4 W
+2948 2948 PD
+4 W
+2030 2867 PD
+4 W
+1404 2080 PD
+4 W
+799 2948 PD
+4 W
+4242 1530 PD
+4 W
+3308 2809 PD
+4 W
+2545 1980 PD
+4 W
+4181 1591 PD
+4 W
+4285 1439 PD
+4 W
+933 2727 PD
+4 W
+799 2669 PD
+4 W
+1495 1996 PD
+4 W
+799 2809 PD
+4 W
+2934 2948 PD
+4 W
+799 2867 PD
+4 W
+2153 1903 PD
+4 W
+3029 2948 PD
+4 W
+3253 2809 PD
+4 W
+1024 1919 PD
+4 W
+2139 2867 PD
+4 W
+2324 2948 PD
+4 W
+3140 2948 PD
+4 W
+2131 2948 PD
+4 W
+799 2146 PD
+4 W
+799 2624 PD
+4 W
+1024 2948 PD
+4 W
+2370 2948 PD
+4 W
+3010 2948 PD
+4 W
+2879 1977 PD
+4 W
+2174 2948 PD
+4 W
+3018 2948 PD
+4 W
+2407 1913 PD
+4 W
+2051 2948 PD
+4 W
+4196 1559 PD
+4 W
+2090 2867 PD
+4 W
+4193 1573 PD
+4 W
+2323 1937 PD
+4 W
+2402 2948 PD
+4 W
+1767 1882 PD
+4 W
+933 2696 PD
+4 W
+3166 2809 PD
+4 W
+1927 2948 PD
+4 W
+1648 1979 PD
+4 W
+2484 2948 PD
+4 W
+2919 2948 PD
+4 W
+1905 2948 PD
+4 W
+4187 1583 PD
+4 W
+1885 2948 PD
+4 W
+1425 1946 PD
+4 W
+2640 1953 PD
+4 W
+2425 2948 PD
+4 W
+2298 1975 PD
+4 W
+799 2256 PD
+4 W
+1990 2016 PD
+4 W
+1358 1981 PD
+4 W
+799 2293 PD
+4 W
+2952 2948 PD
+4 W
+2064 2083 PD
+4 W
+1150 2867 PD
+4 W
+1197 2046 PD
+4 W
+799 2764 PD
+4 W
+1333 2073 PD
+4 W
+1920 2948 PD
+4 W
+2215 2090 PD
+4 W
+2915 1974 PD
+4 W
+1479 1861 PD
+4 W
+1827 1921 PD
+4 W
+1551 1786 PD
+4 W
+933 2142 PD
+4 W
+933 2764 PD
+4 W
+2149 2948 PD
+4 W
+1564 1786 PD
+4 W
+2122 2073 PD
+4 W
+1024 2097 PD
+4 W
+3192 2867 PD
+4 W
+4189 1599 PD
+4 W
+3168 2948 PD
+4 W
+1024 2118 PD
+4 W
+1576 2018 PD
+4 W
+3269 2867 PD
+4 W
+1998 1949 PD
+4 W
+1404 1741 PD
+4 W
+4230 1537 PD
+4 W
+1944 2948 PD
+4 W
+933 2948 PD
+4 W
+3252 2764 PD
+4 W
+1639 1970 PD
+4 W
+1197 1591 PD
+4 W
+933 2164 PD
+4 W
+799 2727 PD
+4 W
+1024 2809 PD
+4 W
+1094 2867 PD
+4 W
+1237 2948 PD
+4 W
+1885 2948 PD
+4 W
+1272 2948 PD
+4 W
+3140 2867 PD
+4 W
+1807 1935 PD
+4 W
+1024 1949 PD
+4 W
+2058 2102 PD
+4 W
+3156 2948 PD
+4 W
+1444 2004 PD
+4 W
+1927 2948 PD
+4 W
+4260 1522 PD
+4 W
+2012 2038 PD
+4 W
+2483 2948 PD
+4 W
+2961 2948 PD
+4 W
+2113 2948 PD
+4 W
+1150 1916 PD
+4 W
+2818 1857 PD
+4 W
+799 2305 PD
+4 W
+4189 1567 PD
+4 W
+933 2696 PD
+4 W
+2159 1946 PD
+4 W
+1272 1691 PD
+4 W
+4197 1588 PD
+4 W
+1846 2948 PD
+4 W
+2513 2050 PD
+4 W
+1094 2948 PD
+4 W
+3497 1765 PD
+4 W
+799 2645 PD
+4 W
+4278 1492 PD
+4 W
+4199 1586 PD
+4 W
+3281 2867 PD
+4 W
+2940 2948 PD
+4 W
+799 2305 PD
+4 W
+2049 2090 PD
+4 W
+3190 2809 PD
+4 W
+4205 1577 PD
+4 W
+1996 2867 PD
+4 W
+3050 2948 PD
+4 W
+4195 1575 PD
+4 W
+1024 2948 PD
+4 W
+1909 2948 PD
+4 W
+3448 2645 PD
+4 W
+1947 2948 PD
+4 W
+1150 2948 PD
+4 W
+2314 2948 PD
+4 W
+4222 1549 PD
+4 W
+1524 1792 PD
+4 W
+2389 2076 PD
+4 W
+1237 2948 PD
+4 W
+2053 2867 PD
+4 W
+2314 2018 PD
+4 W
+2724 1724 PD
+4 W
+2472 1845 PD
+4 W
+2342 2086 PD
+4 W
+799 2669 PD
+4 W
+2124 2062 PD
+4 W
+2203 2948 PD
+4 W
+4194 1584 PD
+4 W
+3264 2948 PD
+4 W
+933 2206 PD
+4 W
+1846 1912 PD
+4 W
+2723 2002 PD
+4 W
+799 2809 PD
+4 W
+933 2948 PD
+4 W
+2604 1894 PD
+4 W
+1094 2867 PD
+4 W
+1358 1947 PD
+4 W
+1237 2948 PD
+4 W
+1197 2948 PD
+4 W
+1639 2009 PD
+4 W
+2922 2948 PD
+4 W
+2485 2005 PD
+4 W
+1735 1799 PD
+4 W
+933 2809 PD
+4 W
+1404 2054 PD
+4 W
+1796 2010 PD
+4 W
+2417 2948 PD
+4 W
+933 2809 PD
+4 W
+799 2305 PD
+4 W
+933 2764 PD
+4 W
+1237 1923 PD
+4 W
+1666 1923 PD
+4 W
+2921 2948 PD
+4 W
+1024 2040 PD
+4 W
+3289 2727 PD
+4 W
+1024 2212 PD
+4 W
+1721 1952 PD
+4 W
+933 2948 PD
+4 W
+2117 1965 PD
+4 W
+2367 2948 PD
+4 W
+1885 2948 PD
+4 W
+3014 2948 PD
+4 W
+799 2243 PD
+4 W
+2387 2948 PD
+4 W
+2075 2867 PD
+4 W
+1094 2809 PD
+4 W
+3132 2867 PD
+4 W
+3223 2809 PD
+4 W
+3145 2948 PD
+4 W
+2891 1906 PD
+4 W
+1024 2948 PD
+4 W
+2032 2867 PD
+4 W
+3341 2669 PD
+4 W
+2399 2948 PD
+4 W
+2347 2948 PD
+4 W
+3226 2809 PD
+4 W
+1237 2948 PD
+4 W
+933 2948 PD
+4 W
+1639 1939 PD
+4 W
+1272 2948 PD
+4 W
+2035 2948 PD
+4 W
+3143 2867 PD
+4 W
+1954 2948 PD
+4 W
+2232 2948 PD
+4 W
+799 2867 PD
+4 W
+1024 2867 PD
+4 W
+1981 1795 PD
+4 W
+1382 2031 PD
+4 W
+1333 1729 PD
+4 W
+2550 2019 PD
+4 W
+2067 2867 PD
+4 W
+2462 1716 PD
+4 W
+1094 2948 PD
+4 W
+1957 2062 PD
+4 W
+2189 1718 PD
+4 W
+933 2764 PD
+4 W
+3175 2948 PD
+4 W
+1877 2026 PD
+4 W
+1024 2179 PD
+4 W
+1094 2948 PD
+4 W
+2482 2948 PD
+4 W
+1587 2043 PD
+4 W
+2403 2948 PD
+4 W
+1150 2065 PD
+4 W
+2067 2948 PD
+4 W
+2907 2948 PD
+4 W
+1304 2117 PD
+4 W
+1609 1951 PD
+4 W
+1304 2062 PD
+4 W
+2171 2044 PD
+4 W
+4200 1582 PD
+4 W
+1094 2867 PD
+4 W
+1237 2046 PD
+4 W
+2042 2867 PD
+4 W
+1941 2948 PD
+4 W
+1024 2867 PD
+4 W
+1304 2948 PD
+4 W
+1598 1631 PD
+4 W
+2117 2867 PD
+4 W
+1150 2021 PD
+4 W
+1272 1995 PD
+4 W
+2954 2003 PD
+4 W
+2521 2948 PD
+4 W
+3018 2948 PD
+4 W
+2340 2102 PD
+4 W
+1150 2867 PD
+4 W
+3076 1936 PD
+4 W
+799 2237 PD
+4 W
+2776 2018 PD
+4 W
+2423 2948 PD
+4 W
+1587 2013 PD
+4 W
+799 2867 PD
+4 W
+1333 1716 PD
+4 W
+799 2624 PD
+4 W
+933 2948 PD
+4 W
+1462 1691 PD
+4 W
+1197 2948 PD
+4 W
+799 1780 PD
+4 W
+799 2305 PD
+4 W
+4265 1495 PD
+4 W
+1094 1852 PD
+4 W
+2188 2087 PD
+4 W
+2094 2867 PD
+4 W
+4292 1449 PD
+4 W
+1150 2867 PD
+4 W
+1024 2809 PD
+4 W
+2234 1990 PD
+4 W
+1094 2164 PD
+4 W
+1609 1969 PD
+4 W
+1024 2110 PD
+4 W
+1691 1976 PD
+4 W
+1564 1829 PD
+4 W
+1024 2089 PD
+4 W
+1024 2809 PD
+4 W
+2492 2948 PD
+4 W
+2071 2948 PD
+4 W
+4191 1596 PD
+4 W
+2071 2948 PD
+4 W
+3219 2948 PD
+4 W
+1094 2120 PD
+4 W
+3098 2948 PD
+4 W
+799 2031 PD
+4 W
+2051 2080 PD
+4 W
+3002 2948 PD
+4 W
+1150 2173 PD
+4 W
+799 2240 PD
+4 W
+1150 2948 PD
+4 W
+1714 1970 PD
+4 W
+2995 2948 PD
+4 W
+2946 2948 PD
+4 W
+1860 2948 PD
+4 W
+2551 2021 PD
+4 W
+799 2231 PD
+4 W
+4210 1553 PD
+4 W
+799 2220 PD
+4 W
+1094 2809 PD
+4 W
+3350 2727 PD
+4 W
+2601 1876 PD
+4 W
+2487 2948 PD
+4 W
+2098 2948 PD
+4 W
+4273 1486 PD
+4 W
+3291 2764 PD
+4 W
+2126 2948 PD
+4 W
+2079 2043 PD
+4 W
+1524 1917 PD
+4 W
+1024 2764 PD
+4 W
+1150 2867 PD
+4 W
+2219 1855 PD
+4 W
+1094 2948 PD
+4 W
+2895 2948 PD
+4 W
+1024 2948 PD
+4 W
+1304 2948 PD
+4 W
+2612 1897 PD
+4 W
+1916 2948 PD
+4 W
+1773 2014 PD
+4 W
+799 2289 PD
+4 W
+799 2645 PD
+4 W
+2219 2948 PD
+4 W
+3223 2867 PD
+4 W
+1755 2010 PD
+4 W
+2092 1814 PD
+4 W
+1846 1840 PD
+4 W
+1197 2948 PD
+4 W
+1024 2809 PD
+4 W
+933 2809 PD
+4 W
+1404 2061 PD
+4 W
+2849 1804 PD
+4 W
+1304 2948 PD
+4 W
+2167 2107 PD
+4 W
+3179 2867 PD
+4 W
+933 2867 PD
+4 W
+1024 2764 PD
+4 W
+1779 1884 PD
+4 W
+1024 2809 PD
+4 W
+933 2696 PD
+4 W
+1333 2109 PD
+4 W
+1304 2948 PD
+4 W
+4298 1415 PD
+4 W
+1024 2177 PD
+4 W
+2515 2948 PD
+4 W
+2694 2026 PD
+4 W
+2719 2043 PD
+4 W
+2971 2948 PD
+4 W
+1951 1984 PD
+4 W
+3177 2867 PD
+4 W
+1495 1928 PD
+4 W
+1674 1898 PD
+4 W
+3248 2948 PD
+4 W
+3254 2764 PD
+4 W
+4189 1588 PD
+4 W
+2381 1930 PD
+4 W
+933 2228 PD
+4 W
+2280 2948 PD
+4 W
+3055 2948 PD
+4 W
+2405 2948 PD
+4 W
+1598 2046 PD
+4 W
+1272 2948 PD
+4 W
+2283 2948 PD
+4 W
+1975 1874 PD
+4 W
+1984 2083 PD
+4 W
+2443 2948 PD
+4 W
+2519 2044 PD
+4 W
+1538 1974 PD
+4 W
+1916 2948 PD
+4 W
+1094 2867 PD
+4 W
+1272 2948 PD
+4 W
+1674 1851 PD
+4 W
+799 2134 PD
+4 W
+2144 2948 PD
+4 W
+2111 1772 PD
+4 W
+1237 1950 PD
+4 W
+1304 2948 PD
+4 W
+2060 2948 PD
+4 W
+2022 2023 PD
+4 W
+799 2809 PD
+4 W
+2139 1923 PD
+4 W
+1150 2948 PD
+4 W
+799 2297 PD
+4 W
+1024 2867 PD
+4 W
+2120 2948 PD
+4 W
+1951 1939 PD
+4 W
+3349 1727 PD
+4 W
+3107 2867 PD
+4 W
+2372 2948 PD
+4 W
+4213 1543 PD
+4 W
+3283 2727 PD
+4 W
+4214 1547 PD
+4 W
+2371 2948 PD
+4 W
+2131 2948 PD
+4 W
+2376 1978 PD
+4 W
+2441 2948 PD
+4 W
+1358 1985 PD
+4 W
+1382 1902 PD
+4 W
+799 2247 PD
+4 W
+799 2809 PD
+4 W
+2803 1993 PD
+4 W
+1728 1973 PD
+4 W
+2568 2005 PD
+4 W
+799 2624 PD
+4 W
+3188 2809 PD
+4 W
+2650 1873 PD
+4 W
+799 2624 PD
+4 W
+1272 2030 PD
+4 W
+2006 2948 PD
+4 W
+3189 2948 PD
+4 W
+1425 1926 PD
+4 W
+1333 1783 PD
+4 W
+2937 2948 PD
+4 W
+2385 2087 PD
+4 W
+4172 1584 PD
+4 W
+933 2696 PD
+4 W
+2430 2948 PD
+4 W
+933 2191 PD
+4 W
+933 2764 PD
+4 W
+1304 2948 PD
+4 W
+1358 1993 PD
+4 W
+2006 2948 PD
+4 W
+2412 2948 PD
+4 W
+1150 2150 PD
+4 W
+1691 2029 PD
+4 W
+1856 1959 PD
+4 W
+2044 2099 PD
+4 W
+3066 2948 PD
+4 W
+1094 2152 PD
+4 W
+1150 2162 PD
+4 W
+933 1726 PD
+4 W
+2487 2012 PD
+4 W
+933 2809 PD
+4 W
+933 2107 PD
+4 W
+2141 2948 PD
+4 W
+2032 2948 PD
+4 W
+1272 2113 PD
+4 W
+2073 1844 PD
+4 W
+1024 2867 PD
+4 W
+2296 2948 PD
+4 W
+1024 2948 PD
+4 W
+1237 1759 PD
+4 W
+1150 2867 PD
+4 W
+799 2696 PD
+4 W
+1024 1843 PD
+4 W
+3013 2948 PD
+4 W
+1304 2948 PD
+4 W
+3164 1909 PD
+4 W
+2495 2948 PD
+4 W
+1755 1684 PD
+4 W
+1094 2867 PD
+4 W
+933 2764 PD
+4 W
+2795 2006 PD
+4 W
+1444 1941 PD
+4 W
+1462 2015 PD
+4 W
+1479 1907 PD
+4 W
+1197 2948 PD
+4 W
+1304 2948 PD
+4 W
+2315 2948 PD
+4 W
+2428 1953 PD
+4 W
+1304 2948 PD
+4 W
+933 2696 PD
+4 W
+1237 1703 PD
+4 W
+2248 2050 PD
+4 W
+4182 1583 PD
+4 W
+2475 2948 PD
+4 W
+933 2084 PD
+4 W
+2420 1979 PD
+4 W
+799 2669 PD
+4 W
+1304 1832 PD
+4 W
+2480 2948 PD
+4 W
+4204 1579 PD
+4 W
+799 2240 PD
+4 W
+1425 2043 PD
+4 W
+1714 1876 PD
+4 W
+933 2184 PD
+4 W
+3102 2867 PD
+4 W
+2235 2948 PD
+4 W
+799 2669 PD
+4 W
+3086 2948 PD
+4 W
+2022 2948 PD
+4 W
+1024 2177 PD
+4 W
+3068 2948 PD
+4 W
+1666 1934 PD
+4 W
+2427 2948 PD
+4 W
+799 2727 PD
+4 W
+3031 2948 PD
+4 W
+2270 2026 PD
+4 W
+4202 1566 PD
+4 W
+799 2237 PD
+4 W
+933 2091 PD
+4 W
+1024 2809 PD
+4 W
+1937 1770 PD
+4 W
+3004 2948 PD
+4 W
+2884 2948 PD
+4 W
+2718 2011 PD
+4 W
+3232 2867 PD
+4 W
+933 2696 PD
+4 W
+933 2764 PD
+4 W
+2126 2948 PD
+4 W
+2746 1993 PD
+4 W
+799 2727 PD
+4 W
+3068 2948 PD
+4 W
+2173 2948 PD
+4 W
+2517 2042 PD
+4 W
+2430 2948 PD
+4 W
+1304 2086 PD
+4 W
+2046 2867 PD
+4 W
+2113 2867 PD
+4 W
+1748 1932 PD
+4 W
+3046 2948 PD
+4 W
+1666 1912 PD
+4 W
+1150 2867 PD
+4 W
+1846 2031 PD
+4 W
+799 2289 PD
+4 W
+1024 2177 PD
+4 W
+799 2727 PD
+4 W
+3126 2948 PD
+4 W
+2232 1992 PD
+4 W
+799 2237 PD
+4 W
+1755 1947 PD
+4 W
+799 2225 PD
+4 W
+799 2645 PD
+4 W
+1869 2948 PD
+4 W
+799 2696 PD
+4 W
+1807 1980 PD
+4 W
+2556 1906 PD
+4 W
+799 2669 PD
+4 W
+799 2253 PD
+4 W
+2228 2948 PD
+4 W
+4194 1573 PD
+4 W
+1897 2948 PD
+4 W
+799 1800 PD
+4 W
+2354 1989 PD
+4 W
+799 2669 PD
+4 W
+799 2267 PD
+4 W
+933 2250 PD
+4 W
+3021 2948 PD
+4 W
+2317 1954 PD
+4 W
+1657 1779 PD
+4 W
+1984 2948 PD
+4 W
+1150 2948 PD
+4 W
+3328 2764 PD
+4 W
+2865 2002 PD
+4 W
+799 2624 PD
+4 W
+2317 2948 PD
+4 W
+799 2179 PD
+4 W
+799 2173 PD
+4 W
+2483 2070 PD
+4 W
+2495 2948 PD
+4 W
+2200 2948 PD
+4 W
+1576 2042 PD
+4 W
+933 2240 PD
+4 W
+2098 2073 PD
+4 W
+3129 1953 PD
+4 W
+4257 1528 PD
+4 W
+2762 2036 PD
+4 W
+3127 1941 PD
+4 W
+1358 1678 PD
+4 W
+799 2040 PD
+4 W
+1748 1923 PD
+4 W
+2350 1836 PD
+4 W
+799 2240 PD
+4 W
+1674 1927 PD
+4 W
+3185 2809 PD
+4 W
+2189 1868 PD
+4 W
+2899 2010 PD
+4 W
+1905 2948 PD
+4 W
+4227 1548 PD
+4 W
+3262 2764 PD
+4 W
+933 2138 PD
+4 W
+2261 2091 PD
+4 W
+799 2727 PD
+4 W
+2084 2867 PD
+4 W
+1024 2764 PD
+4 W
+1237 1936 PD
+4 W
+1024 1866 PD
+4 W
+1510 1813 PD
+4 W
+2032 2867 PD
+4 W
+2186 2948 PD
+4 W
+1358 1990 PD
+4 W
+2037 2867 PD
+4 W
+3095 1920 PD
+4 W
+2931 2948 PD
+4 W
+2512 1995 PD
+4 W
+2438 2948 PD
+4 W
+1094 2948 PD
+4 W
+1551 2000 PD
+4 W
+4302 1417 PD
+4 W
+2134 2045 PD
+4 W
+3273 2948 PD
+4 W
+1674 1823 PD
+4 W
+933 2214 PD
+4 W
+2269 2948 PD
+4 W
+1934 2035 PD
+4 W
+2100 2867 PD
+4 W
+799 2948 PD
+4 W
+1094 1847 PD
+4 W
+1598 1907 PD
+4 W
+2211 2073 PD
+4 W
+1524 1985 PD
+4 W
+2071 2948 PD
+4 W
+799 2624 PD
+4 W
+1916 1934 PD
+4 W
+2244 2948 PD
+4 W
+933 2764 PD
+4 W
+799 2087 PD
+4 W
+2188 1824 PD
+4 W
+3086 2867 PD
+4 W
+2975 2948 PD
+4 W
+1444 2072 PD
+4 W
+3080 2948 PD
+4 W
+1934 1999 PD
+4 W
+4192 1577 PD
+4 W
+1237 2948 PD
+4 W
+799 2243 PD
+4 W
+1024 2764 PD
+4 W
+1272 2099 PD
+4 W
+799 2948 PD
+4 W
+799 2223 PD
+4 W
+1827 1955 PD
+4 W
+2182 2948 PD
+4 W
+933 1761 PD
+4 W
+2899 2948 PD
+4 W
+799 2645 PD
+4 W
+4205 1566 PD
+4 W
+3108 2867 PD
+4 W
+1150 2948 PD
+4 W
+1094 2867 PD
+4 W
+799 2764 PD
+4 W
+3228 2867 PD
+4 W
+2368 1941 PD
+4 W
+3191 1924 PD
+4 W
+1755 2002 PD
+4 W
+1666 1849 PD
+4 W
+1987 2948 PD
+4 W
+2156 2948 PD
+4 W
+2503 1952 PD
+4 W
+1024 2867 PD
+4 W
+2582 1971 PD
+4 W
+2246 2948 PD
+4 W
+1576 1891 PD
+4 W
+799 2223 PD
+4 W
+1024 2809 PD
+4 W
+1237 2055 PD
+4 W
+2368 2948 PD
+4 W
+2186 2948 PD
+4 W
+4216 1557 PD
+4 W
+1024 2809 PD
+4 W
+1714 2009 PD
+4 W
+1272 2948 PD
+4 W
+2192 2030 PD
+4 W
+1930 1838 PD
+4 W
+1150 2948 PD
+4 W
+2945 2001 PD
+4 W
+799 2061 PD
+4 W
+2853 1797 PD
+4 W
+1094 1908 PD
+4 W
+2284 2070 PD
+4 W
+1966 2948 PD
+4 W
+2255 2948 PD
+4 W
+1333 1839 PD
+4 W
+2037 2948 PD
+4 W
+1648 1731 PD
+4 W
+2933 2018 PD
+4 W
+1272 2097 PD
+4 W
+799 2624 PD
+4 W
+1272 2014 PD
+4 W
+3149 2948 PD
+4 W
+4195 1591 PD
+4 W
+1094 2125 PD
+4 W
+933 2696 PD
+4 W
+3172 2809 PD
+4 W
+2020 1952 PD
+4 W
+1094 2948 PD
+4 W
+4287 1480 PD
+4 W
+799 2764 PD
+4 W
+2176 2052 PD
+4 W
+2515 2948 PD
+4 W
+933 2727 PD
+4 W
+1832 1932 PD
+4 W
+799 2289 PD
+4 W
+1576 2011 PD
+4 W
+799 2314 PD
+4 W
+4199 1569 PD
+4 W
+2247 2948 PD
+4 W
+1304 1976 PD
+4 W
+933 2948 PD
+4 W
+4222 1542 PD
+4 W
+1024 2867 PD
+4 W
+1024 2948 PD
+4 W
+2196 1987 PD
+4 W
+799 2867 PD
+4 W
+2012 2948 PD
+4 W
+1807 1854 PD
+4 W
+799 2727 PD
+4 W
+933 2144 PD
+4 W
+3129 2948 PD
+4 W
+3008 2948 PD
+4 W
+2107 2867 PD
+4 W
+2643 2059 PD
+4 W
+933 2696 PD
+4 W
+1024 2177 PD
+4 W
+1683 1979 PD
+4 W
+1598 2046 PD
+4 W
+2079 2867 PD
+4 W
+2434 1766 PD
+4 W
+1404 1914 PD
+4 W
+1197 2948 PD
+4 W
+4245 1515 PD
+4 W
+2046 2867 PD
+4 W
+933 2256 PD
+4 W
+799 2194 PD
+4 W
+2423 1963 PD
+4 W
+2460 2050 PD
+4 W
+3305 2809 PD
+4 W
+2878 2948 PD
+4 W
+1272 2948 PD
+4 W
+1024 2867 PD
+4 W
+2419 2061 PD
+4 W
+2275 2948 PD
+4 W
+799 2293 PD
+4 W
+1024 2764 PD
+4 W
+933 2764 PD
+4 W
+3241 2809 PD
+4 W
+799 2314 PD
+4 W
+1609 2007 PD
+4 W
+1629 1734 PD
+4 W
+1937 2057 PD
+4 W
+1333 2086 PD
+4 W
+1674 1677 PD
+4 W
+799 2809 PD
+4 W
+1150 2867 PD
+4 W
+1150 2948 PD
+4 W
+4251 1507 PD
+4 W
+1721 2030 PD
+4 W
+2001 2948 PD
+4 W
+2161 1936 PD
+4 W
+1941 1827 PD
+4 W
+2241 2055 PD
+4 W
+2425 2948 PD
+4 W
+2220 2948 PD
+4 W
+1978 1977 PD
+4 W
+3159 2948 PD
+4 W
+2053 2948 PD
+4 W
+2683 1997 PD
+4 W
+1333 2084 PD
+4 W
+3510 1630 PD
+4 W
+2105 2948 PD
+4 W
+3145 2867 PD
+4 W
+1333 1954 PD
+4 W
+2193 2948 PD
+4 W
+2262 1897 PD
+4 W
+3122 1923 PD
+4 W
+4175 1594 PD
+4 W
+1150 2867 PD
+4 W
+1237 2948 PD
+4 W
+3231 2948 PD
+4 W
+1860 1934 PD
+4 W
+799 2186 PD
+4 W
+1094 2948 PD
+4 W
+2962 1815 PD
+4 W
+1094 2867 PD
+4 W
+1197 2066 PD
+4 W
+799 2867 PD
+4 W
+933 2948 PD
+4 W
+3001 2948 PD
+4 W
+2360 2948 PD
+4 W
+1272 1944 PD
+4 W
+933 2223 PD
+4 W
+1524 2044 PD
+4 W
+2327 2948 PD
+4 W
+1832 1927 PD
+4 W
+799 2948 PD
+4 W
+2001 2867 PD
+4 W
+1024 2124 PD
+4 W
+3043 2948 PD
+4 W
+799 2645 PD
+4 W
+1382 2003 PD
+4 W
+2447 2948 PD
+4 W
+1197 2948 PD
+4 W
+799 2764 PD
+4 W
+2426 2948 PD
+4 W
+4214 1565 PD
+4 W
+1094 2112 PD
+4 W
+3381 2645 PD
+4 W
+799 2696 PD
+4 W
+933 2809 PD
+4 W
+2214 2056 PD
+4 W
+1657 1857 PD
+4 W
+799 2624 PD
+4 W
+933 2867 PD
+4 W
+2465 2948 PD
+4 W
+2411 2065 PD
+4 W
+1024 2809 PD
+4 W
+1495 1842 PD
+4 W
+799 2696 PD
+4 W
+1893 2948 PD
+4 W
+1197 2948 PD
+4 W
+2058 2867 PD
+4 W
+1674 1897 PD
+4 W
+799 2867 PD
+4 W
+1990 1822 PD
+4 W
+933 2217 PD
+4 W
+2496 2948 PD
+4 W
+1564 2016 PD
+4 W
+1272 1693 PD
+4 W
+4197 1582 PD
+4 W
+1790 1961 PD
+4 W
+933 2696 PD
+4 W
+1150 1946 PD
+4 W
+1827 2031 PD
+4 W
+2202 2948 PD
+4 W
+933 2727 PD
+4 W
+1024 2809 PD
+4 W
+799 2645 PD
+4 W
+799 2669 PD
+4 W
+1807 1984 PD
+4 W
+2474 2037 PD
+4 W
+2148 2115 PD
+4 W
+1941 1792 PD
+4 W
+1094 2809 PD
+4 W
+1901 1845 PD
+4 W
+799 2645 PD
+4 W
+1094 2948 PD
+4 W
+4194 1581 PD
+4 W
+1024 2948 PD
+4 W
+799 2194 PD
+4 W
+1024 2948 PD
+4 W
+1094 2186 PD
+4 W
+1024 2809 PD
+4 W
+2141 2948 PD
+4 W
+1237 1651 PD
+4 W
+933 2948 PD
+4 W
+1807 1772 PD
+4 W
+933 2727 PD
+4 W
+3217 2867 PD
+4 W
+799 2645 PD
+4 W
+1150 1838 PD
+4 W
+933 2764 PD
+4 W
+2088 2948 PD
+4 W
+2328 2948 PD
+4 W
+1304 2948 PD
+4 W
+3077 2948 PD
+4 W
+2168 2948 PD
+4 W
+3047 1959 PD
+4 W
+799 2314 PD
+4 W
+2303 2091 PD
+4 W
+2410 2948 PD
+4 W
+1648 1993 PD
+4 W
+933 2764 PD
+4 W
+2056 2948 PD
+4 W
+1024 2867 PD
+4 W
+1272 1693 PD
+4 W
+1304 1852 PD
+4 W
+2084 2948 PD
+4 W
+2653 1901 PD
+4 W
+799 2624 PD
+4 W
+2345 2948 PD
+4 W
+1666 1989 PD
+4 W
+933 2867 PD
+4 W
+1755 1984 PD
+4 W
+2103 2948 PD
+4 W
+933 2867 PD
+4 W
+2292 2948 PD
+4 W
+1510 1970 PD
+4 W
+2380 1968 PD
+4 W
+933 2201 PD
+4 W
+1639 2046 PD
+4 W
+933 2105 PD
+4 W
+3391 2605 PD
+4 W
+2968 2948 PD
+4 W
+2051 2042 PD
+4 W
+1094 2948 PD
+4 W
+2164 1994 PD
+4 W
+1150 2867 PD
+4 W
+2384 2948 PD
+4 W
+2291 2948 PD
+4 W
+2682 1981 PD
+4 W
+2440 2068 PD
+4 W
+1706 1713 PD
+4 W
+1609 1764 PD
+4 W
+933 2253 PD
+4 W
+1851 1844 PD
+4 W
+3095 1950 PD
+4 W
+4173 1586 PD
+4 W
+1024 2948 PD
+4 W
+3091 2948 PD
+4 W
+2912 1790 PD
+4 W
+799 2645 PD
+4 W
+3539 1036 PD
+4 W
+933 2696 PD
+4 W
+2875 2948 PD
+4 W
+799 2948 PD
+4 W
+4236 1523 PD
+4 W
+4190 1594 PD
+4 W
+3235 2948 PD
+4 W
+3063 2948 PD
+4 W
+1998 2948 PD
+4 W
+2030 2948 PD
+4 W
+1648 2000 PD
+4 W
+1197 2948 PD
+4 W
+1094 2867 PD
+4 W
+1197 1800 PD
+4 W
+933 2250 PD
+4 W
+2852 2027 PD
+4 W
+933 2764 PD
+4 W
+799 2281 PD
+4 W
+2415 2948 PD
+4 W
+1150 2867 PD
+4 W
+2120 2107 PD
+4 W
+1304 2948 PD
+4 W
+2012 2948 PD
+4 W
+4172 1594 PD
+4 W
+1094 1913 PD
+4 W
+1197 2948 PD
+4 W
+3019 2948 PD
+4 W
+2880 2948 PD
+4 W
+2286 2948 PD
+4 W
+1972 2948 PD
+4 W
+933 2234 PD
+4 W
+3264 2809 PD
+4 W
+3063 2948 PD
+4 W
+1551 2059 PD
+4 W
+2818 1899 PD
+4 W
+2035 2867 PD
+4 W
+1024 2764 PD
+4 W
+2366 2045 PD
+4 W
+1272 2948 PD
+4 W
+3115 1887 PD
+4 W
+1779 2019 PD
+4 W
+2430 1998 PD
+4 W
+1304 2052 PD
+4 W
+1094 2809 PD
+4 W
+3255 2809 PD
+4 W
+2049 2867 PD
+4 W
+799 2285 PD
+4 W
+1785 1840 PD
+4 W
+2947 2948 PD
+4 W
+1941 2036 PD
+4 W
+1495 1941 PD
+4 W
+1094 2809 PD
+4 W
+4293 1448 PD
+4 W
+3154 1913 PD
+4 W
+2069 1924 PD
+4 W
+1382 1887 PD
+4 W
+2864 2948 PD
+4 W
+3257 2867 PD
+4 W
+1382 1907 PD
+4 W
+799 2867 PD
+4 W
+3025 2948 PD
+4 W
+2548 2023 PD
+4 W
+2309 2948 PD
+4 W
+1094 1874 PD
+4 W
+1832 2037 PD
+4 W
+933 1994 PD
+4 W
+3021 2948 PD
+4 W
+1479 1760 PD
+4 W
+3388 2764 PD
+4 W
+933 2764 PD
+4 W
+1767 2046 PD
+4 W
+3239 2948 PD
+4 W
+2309 2948 PD
+4 W
+2954 2948 PD
+4 W
+799 2809 PD
+4 W
+799 2314 PD
+4 W
+4217 1571 PD
+4 W
+799 2131 PD
+4 W
+1094 2867 PD
+4 W
+2252 2948 PD
+4 W
+2103 1981 PD
+4 W
+2943 2948 PD
+4 W
+1024 2948 PD
+4 W
+2245 1945 PD
+4 W
+2977 2948 PD
+4 W
+933 2150 PD
+4 W
+1629 1944 PD
+4 W
+1094 2948 PD
+4 W
+2706 1911 PD
+4 W
+933 2696 PD
+4 W
+2146 2948 PD
+4 W
+2020 2038 PD
+4 W
+1869 2052 PD
+4 W
+2899 2948 PD
+4 W
+799 2645 PD
+4 W
+3176 2867 PD
+4 W
+2410 2948 PD
+4 W
+2131 1946 PD
+4 W
+799 2764 PD
+4 W
+1735 2016 PD
+4 W
+3311 2948 PD
+4 W
+3193 2809 PD
+4 W
+933 2948 PD
+4 W
+1944 2948 PD
+gr
+
+0.8 sg
+0 sg
+125 -125 132 -109 132 -98 132 -95 135 -94 132 -92 3417 2181 7 MP stroke
+gs 3344 1495 935 760 rc
+3381 2181 mt 3453 2181 L
+3417 2145 mt 3417 2217 L
+3513 2089 mt 3585 2089 L
+3549 2053 mt 3549 2125 L
+3648 1995 mt 3720 1995 L
+3684 1959 mt 3684 2031 L
+3780 1900 mt 3852 1900 L
+3816 1864 mt 3816 1936 L
+3912 1802 mt 3984 1802 L
+3948 1766 mt 3948 1838 L
+4044 1693 mt 4116 1693 L
+4080 1657 mt 4080 1729 L
+4169 1568 mt 4241 1568 L
+4205 1532 mt 4205 1604 L
+3392 2156 mt 3442 2206 L
+3442 2156 mt 3392 2206 L
+3524 2064 mt 3574 2114 L
+3574 2064 mt 3524 2114 L
+3659 1970 mt 3709 2020 L
+3709 1970 mt 3659 2020 L
+3791 1875 mt 3841 1925 L
+3841 1875 mt 3791 1925 L
+3923 1777 mt 3973 1827 L
+3973 1777 mt 3923 1827 L
+4055 1668 mt 4105 1718 L
+4105 1668 mt 4055 1718 L
+4180 1543 mt 4230 1593 L
+4230 1543 mt 4180 1593 L
+gr
+
+DO
+125 -134 132 -110 132 -95 132 -89 135 -76 132 -60 3417 2088 7 MP stroke
+125 -118 132 -107 132 -100 132 -102 135 -112 132 -123 3417 2273 7 MP stroke
+SO
+/c8 { 1.000000 0.000000 0.000000 sr} bdef
+c8
+2555 -1791 2137 3077 2 MP stroke
+gr
+
+c8
+0 sg
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 120 FMSR
+
+2133 3364 mt 
+(Yellow \(FITC-A a.u.\)) s
+ 491 2475 mt  -90 rotate
+(Red \(PE-Tx-Red-YG-A a.u.\)) s
+90 rotate
+1955  164 mt 
+(Color Compensation Model) s
+4 w
+DO
+SO
+6 w
+ 674 3076 mt 4692 3076 L
+ 674  259 mt 4692  259 L
+ 674 3076 mt  674  259 L
+4692 3076 mt 4692  259 L
+ 674 3076 mt 4692 3076 L
+ 674 3076 mt  674  259 L
+ 674 3076 mt  674 3035 L
+ 674  259 mt  674  299 L
+ 641 3221 mt 
+(0) s
+1343 3076 mt 1343 3035 L
+1343  259 mt 1343  299 L
+1310 3221 mt 
+(1) s
+2013 3076 mt 2013 3035 L
+2013  259 mt 2013  299 L
+1980 3221 mt 
+(2) s
+2683 3076 mt 2683 3035 L
+2683  259 mt 2683  299 L
+2650 3221 mt 
+(3) s
+3352 3076 mt 3352 3035 L
+3352  259 mt 3352  299 L
+3319 3221 mt 
+(4) s
+4022 3076 mt 4022 3035 L
+4022  259 mt 4022  299 L
+3989 3221 mt 
+(5) s
+4692 3076 mt 4692 3035 L
+4692  259 mt 4692  299 L
+4659 3221 mt 
+(6) s
+ 674 3076 mt  714 3076 L
+4692 3076 mt 4651 3076 L
+ 573 3120 mt 
+(0) s
+ 674 2606 mt  714 2606 L
+4692 2606 mt 4651 2606 L
+ 573 2650 mt 
+(1) s
+ 674 2137 mt  714 2137 L
+4692 2137 mt 4651 2137 L
+ 573 2181 mt 
+(2) s
+ 674 1667 mt  714 1667 L
+4692 1667 mt 4651 1667 L
+ 573 1711 mt 
+(3) s
+ 674 1197 mt  714 1197 L
+4692 1197 mt 4651 1197 L
+ 573 1241 mt 
+(4) s
+ 674  728 mt  714  728 L
+4692  728 mt 4651  728 L
+ 573  772 mt 
+(5) s
+ 674 3076 mt 4692 3076 L
+ 674  259 mt 4692  259 L
+ 674 3076 mt  674  259 L
+4692 3076 mt 4692  259 L
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF
